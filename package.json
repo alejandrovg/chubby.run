@@ -1,0 +1,14 @@
+{
+  "name": "chubby-run",
+  "version": "1.0.0",
+  "private": true,
+  "description": "chubby.run — road to the 2027 TCS London Marathon",
+  "type": "module",
+  "scripts": {
+    "fetch-strava": "node scripts/fetch-strava.js",
+    "serve": "node scripts/serve.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

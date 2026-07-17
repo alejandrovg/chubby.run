@@ -1,0 +1,28 @@
+RewriteEngine On
+
+# Force https + www canonical host
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule ^ https://www.thechubbyrunner.site%{REQUEST_URI} [L,R=301]
+
+# Defense in depth: never serve secrets or source-only folders even if they
+# end up in this directory by accident.
+<FilesMatch "^\.env">
+  Require all denied
+</FilesMatch>
+RewriteRule ^scripts/ - [F,L]
+RewriteRule ^\.git - [F,L]
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType application/json "access plus 0 seconds"
+</IfModule>

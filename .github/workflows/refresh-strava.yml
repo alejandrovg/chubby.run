@@ -34,3 +34,28 @@ jobs:
           git add data/activities.json
           git diff --staged --quiet || git commit -m "chore: daily Strava data refresh"
           git push
+
+      - name: Deploy to Bluehost
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftps
+          local-dir: ./
+          server-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.env
+            **/scripts/**
+            **/logos/**
+            **/gallery/medals/**
+            **/gallery/*.jpg
+            **/gallery/*.png
+            **/strava-badges/**
+            **/node_modules/**
+            **/package.json
+            **/package-lock.json
+            **/README.md
+            **/.github/**

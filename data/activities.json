@@ -1,17 +1,705 @@
 {
-  "fetched_at": null,
+  "fetched_at": "2026-07-17T04:01:39.877Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
-  "athlete": { "city": null, "state": null, "country": null },
-  "lifetime_stats": null,
-  "aggregates": {
-    "run_count": 0,
-    "total_distance_km": 0,
-    "total_elevation_gain_m": 0,
-    "total_moving_time_s": 0,
-    "longest_run_km": 0,
-    "weekly": [],
-    "monthly": []
+  "athlete": {
+    "city": "Maple Valley 🍁",
+    "state": "Washington",
+    "country": "United States"
   },
-  "activities": []
+  "lifetime_stats": {
+    "recent_run_totals": {
+      "count": 1,
+      "distance": 5140.3,
+      "moving_time": 2027,
+      "elapsed_time": 2259,
+      "elevation_gain": 49,
+      "achievement_count": 0
+    },
+    "ytd_run_totals": {
+      "count": 2,
+      "distance": 10185,
+      "moving_time": 4122,
+      "elapsed_time": 4603,
+      "elevation_gain": 68.3
+    },
+    "all_run_totals": {
+      "count": 229,
+      "distance": 1598575.499999999,
+      "moving_time": 679340,
+      "elapsed_time": 669442,
+      "elevation_gain": 9605.300000000003
+    }
+  },
+  "aggregates": {
+    "run_count": 2,
+    "total_distance_km": 10.2,
+    "total_elevation_gain_m": 68,
+    "total_moving_time_s": 4122,
+    "longest_run_km": 5.1,
+    "weekly": [
+      {
+        "week": "2026-06-08",
+        "distance_km": 5
+      },
+      {
+        "week": "2026-06-15",
+        "distance_km": 5.1
+      }
+    ],
+    "monthly": [
+      {
+        "month": "2026-06",
+        "distance_km": 10.2,
+        "elevation_gain_m": 68,
+        "avg_pace_min_km": 6.75
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": 19289417629,
+      "name": "Evening Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-07-13T02:10:39Z",
+      "start_date_local": "2026-07-12T19:10:39Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 2798.9,
+      "moving_time": 2015,
+      "elapsed_time": 2094,
+      "total_elevation_gain": 11.6,
+      "average_speed": 1.389,
+      "max_speed": 3.256,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        47.35248,
+        -122.054506
+      ],
+      "end_latlng": [
+        47.352832,
+        -122.055559
+      ],
+      "map": {
+        "summary_polyline": "_f_`Hdw}gV\\rBJx@v@rEJjA?fBWhA?Jc@bA_@b@c@XWL_@FmABGAW@UCwBBeCAa@CSDOEOGSUOYSs@AwADy@Co@BoAAI?KN[PCBEX@^AFBRCX@PEHDx@?PRDLB?CBEAZULEHIREDK?Kg@sCKeAAyBCW@y@Aw@CGICe@BiA@y@Fa@Hg@AMB}@BOBQHOV@hAAb@Bx@CdBBn@@BEj@BhAA^?v@Ep@@pACfB@h@BJC^B`@E\\B~AAfA@PA`B@NFBJ?PDp@Ad@@^Cj@@tAN\\?PBAB?CPAPGFG^Qh@k@Ta@HCXi@Ja@F}@?UIMCMAaBBw@AY"
+      }
+    },
+    {
+      "id": 19272923968,
+      "name": "Chisme Loop",
+      "type": "Ride",
+      "sport_type": "Ride",
+      "start_date": "2026-07-11T16:17:29Z",
+      "start_date_local": "2026-07-11T09:17:29Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 39856.4,
+      "moving_time": 5956,
+      "elapsed_time": 6237,
+      "total_elevation_gain": 162,
+      "average_speed": 6.692,
+      "max_speed": 16.32,
+      "average_heartrate": 156.2,
+      "max_heartrate": 186,
+      "kudos_count": 4,
+      "workout_type": null,
+      "start_latlng": [
+        47.535743,
+        -122.055203
+      ],
+      "end_latlng": [
+        47.535749,
+        -122.05522
+      ],
+      "map": {
+        "summary_polyline": "mzcaH~z}gV@yCI[UQs@Um@Fk@`@Sb@@zINz@x@nADh@MxAgANeIQMMO{C[eBsCqKo@}CBm@lRmRnAaBgAwg@q@aUWi@m@[o@DoTnGqPrFwDdBiCf@gP`FmYnJwDlBmAz@gBv@k@v@iPzKcUjNgG`Em@p@cBr@yE`DyBbCoA|By@pBs@`CWrAoB`Ri@jGiAvH{@fEi@`CgAlDyDrJ_BvCyApB_JhKqAjBoAxB}@|BkCxEu@`AcAt@}OvGsEnCW_@DOxBmAA]yAb@mBdB}@vA{AvDc@rB}AnMi@hBkA|CkAvBi@l@kAt@y@R}KEyB^gBv@aGrE]JsDhCqBl@sBT}BKwCe@gAi@oI{FgK{F{HgDgSwGoCoAwFeDqCsBsG{FSMm@TaSkUeDcE{NoPmA_A_DsAeD_@CGx@DDq@UOaVkB{AIqAHkNfDwFbBeBKeApBc@f@cCdBm@Pq@FkM[}MZENDPb@A\\N?JiS^kDd@sBh@gD`CsDtBeAdAaHnF}CjE{IxNoIlM_FdF}QpPqBdCaAlBaChDqFlDcA`AqE|F{CrD{BxAiGpAgBp@mPdKgAnAuCnFeAfAaB|@cF`BkJbFyAdA{EzEgIfJ}DvEKtWJnHZx@p@RlJ{@xAr@d@t@LGEg@c@eBAu@PeBA_Bg@yBaA_CMqBFiAn@qB|AsJk@{AYsC?Sd@uAYuBLSvDwD`CaB|I{EfFeB~@i@fAgAtDqGh@s@~AoA|LiHtCiAtEo@tAu@rAgAjIsKlAmAbG{DpBsChDoFhJyIxLuKhA{AlNiU~GgKxCuCzCqBx@aAhKkG~GsAnWa@tEHfH|BpAFxAKp@[p@InA}@bEaEfBy@pOcFdBk@j@E@a@PShAQnBBfWrB?^u@AdBNpBd@dBz@xAdAtIxJf[f_@xEbFfDzClGlE`ClAvIjDlJ~CrBhAhAbAxAfBpAbCdB`Fb@z@jA`BfAv@xGdB|AdAdEfEn@\\nAVtACr@WbYuRfBa@zDGnAYzEmCnA}@x@{@fAmClBsGbAcKp@qDdBcFz@sApA_BdCeB~PiHxAgA~@eA~BmElAuC|@{AhA}AhIaJzAsBxBuD`AuBfByE|C}JjAoGbAaHlAsO`AmIjBgGt@wAvCsDbEmC~Aw@tG}Ehg@c\\r@k@\\k@bAQ|DeCtDaBzzAme@p@l@LXvAlk@ZdOCnA_DlDoIfIaEpEK\\Hz@~BjJbAzCzAiAxCILkGCyBRgBT?DoDJUzH@LuAb@GVUZXhHJRHfAnE"
+      }
+    },
+    {
+      "id": 19001027907,
+      "name": "Lakedale 5k",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-06-20T18:26:03Z",
+      "start_date_local": "2026-06-20T11:26:03Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 5140.3,
+      "moving_time": 2027,
+      "elapsed_time": 2259,
+      "total_elevation_gain": 49,
+      "average_speed": 2.275,
+      "max_speed": 4.16,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 3,
+      "workout_type": 1,
+      "start_latlng": [
+        48.577114,
+        -123.082697
+      ],
+      "end_latlng": [
+        48.577689,
+        -123.082905
+      ],
+      "map": {
+        "summary_polyline": "qnngHbnfnV~@]LQDSEm@o@}DA_@L_@DG\\G`CAj@Gt@@FC^A~Ac@r@[VMh@a@RSHEF?NDBHX|AAZH|@F`@ALJ|AHhCAn@BvALr@JTRVb@V^DjC?VBHE`AA`AFTHXVTd@HVZtA^lAb@t@NHRDX@TE~A@^?PCb@MXQBGZWd@o@\\m@LYXc@\\]HCTUVOROnAc@jAGxAJ`@ADCTDb@ATFT@VAd@Dd@Cj@HfA?NAn@BvAATBv@Ad@@FCx@@N@TA`@BbALNJr@R^Xf@VLJ`@Vb@d@TNNTJFFJj@b@^^PLz@x@NH^\\NRB?BCAICEMEo@m@oB{AgBgBu@o@YOiAe@]Uq@UUIcAIi@D_@CO@c@EK@MCIBa@E[Dg@CUByA?oABWG[AK@KCq@HOC_AGW?SBSGYCUEUAs@@UCK@w@Ng@VUTUH]Zs@z@OJ]t@AJQ\\m@n@o@XYDy@Ac@FcBDQIMKc@w@g@}AQw@GISs@a@g@UIc@@KAm@DSE{@Bu@KM?EBCAIBSAK@c@EQII?MIIKWo@EWIsACgCMmACa@EOAw@Ga@EkAUcBKI[FGLmAr@y@^OBGHgBXIC]D}@?g@FGAMBe@EU?WBMFEHAb@NlANf@Hh@D`@B~@Q^SPULUDMLG?[Xe@T"
+      }
+    },
+    {
+      "id": 18921535154,
+      "name": "Morning Ride",
+      "type": "Ride",
+      "sport_type": "Ride",
+      "start_date": "2026-06-14T16:47:54Z",
+      "start_date_local": "2026-06-14T09:47:54Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 40350.2,
+      "moving_time": 5985,
+      "elapsed_time": 6167,
+      "total_elevation_gain": 262,
+      "average_speed": 6.742,
+      "max_speed": 14.6,
+      "average_heartrate": 156.2,
+      "max_heartrate": 186,
+      "kudos_count": 5,
+      "workout_type": 10,
+      "start_latlng": [
+        47.535732,
+        -122.055124
+      ],
+      "end_latlng": [
+        47.53581,
+        -122.055008
+      ],
+      "map": {
+        "summary_polyline": "gzcaHzy}gV@qCMOeAS}@Pi@^Qt@NzIRx@\\`@NhAGz@Q^kARoHOQUC_C]{BoCqKw@{DBYLOjG{GnKgKPi@m@mWKyJ{@aYGUg@k@k@ImCl@sKvDsRvF}EpB{B`@kOrEsFrBuUlHkHjEy@Vk@v@mh@x\\wFbEoB`AsClBkAx@cCzCg@t@mAxCi@?W[GDkB|NcArNaArGeBbJaAxCc@nBsBtFaElH{NbQ}E`KmA|AcAv@yRlI{BpAyAbBiAvBiAlDyBtP_CtGu@fAkBvAeAXgJIeEj@eAh@aKrHoB`A{Dt@mDK{Cw@kC}AmBsBaBw@oAoAsByA{b@eOmG}CwEwCkDmCyC{C_QcS_Q{SqD_EuCcCqBaAyA_@y\\{BuPrD{FjBs@@c@UmA~BeA~@gBdAcBR_K_@u`@f@{CV}DlAkEjCyJ~GuClCiBxBsQ|YoFhIgJjIyAdA_GtFmAzAwCbFy@|@qGdEgCzBmIhKwBhAuHnBaQbKgAjAqDzFmAfAiS|JqDvCyKjLoBlCeCfAIn@VfCQnY@bDHbAh@n@h@DrI{@bAP~@n@j@bA\\tAJ~AMzJc@zB}@tAyJ~H_AtA{@rCQpC?vCUjBwArECbANzAxAbDT|ABn@[xFF`ETrEVx@X`@bB`Ad@~@Fb@e@lFc@jA@`AlDpDn@PvA_Ap@w@bDoCb@eAbF}H~EmGf@_@ZZdCcD~MwN`FoCtAc@|F{@~DcAf@eB\\c@j@{ATeAbFw]~@qCl@iA|AaBrAu@nQeC|@e@~Si_@lLoZtFkLrEkIzFqGzH_JzD_Er@mAfDeCvDqBhEuAvAOlD?xCj@fBl@vBpA`EbDzJfEdElCjB|AxFlHz@~AhAnCFd@lBrErBzHr@tArArBvAvAfJxLnArChBbGrDrJt@`ClE~IxCdF`CnCbFdDvH~FfGtHvBtAvANvAOnN}DdGqAZUxDi@b@c@rB[rFiBnCWjSrBvBh@dHdDn@NfZoBhYeA|a@bLbGl@bA?v@WxAkBXy@`@gDb@qAz@cBv@cAlJqJhC{CdD{CpAoB`AgCCcAZqALiBhBaKpBmGzA}BJCBJHW\\SxC}@nAq@r@Un@@|BcAr@Hh@]fEm@zBUn@FbE]nBNRTVGzA}F|BiMtBqJv@kCxDyJpLaXnJw[~Nwc@xAwBlAw@hBg@`G[lBqApBcEZiApF{K`HgF`BkBzEuJlDsF`EuDxFgDnAoA~@{Ah@}Ah@mDKg]FuAlD]vEXzDHlAOd@W"
+      }
+    },
+    {
+      "id": 18885250068,
+      "name": "Couch potato to 5k LOL",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-06-12T00:40:20Z",
+      "start_date_local": "2026-06-11T17:40:20Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 5044.6,
+      "moving_time": 2095,
+      "elapsed_time": 2344,
+      "total_elevation_gain": 19.3,
+      "average_speed": 2.408,
+      "max_speed": 3.88,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 3,
+      "workout_type": null,
+      "start_latlng": [
+        47.409597,
+        -122.038439
+      ],
+      "end_latlng": [
+        47.414413,
+        -122.042614
+      ],
+      "map": {
+        "summary_polyline": "{bk`Hn_{gVYVuCzBiAbASLIJOHc@b@gAv@qBdB_@P[^yAhAe@b@a@VSReBpAEHKBWX_@XGB[\\c@\\KLu@d@EHkBtA_A~@MD_At@]`@G@EJQLCDYPIJODEHa@Ra@\\ULo@n@]TKDWV{@n@IL]RSXUNKDcAv@KLwAhAe@ZWX[TMFQRSLg@f@c@XQRm@h@g@\\u@j@IJaAr@q@l@qA`AQRs@f@QRSJILeAv@o@n@SLa@\\ODuBjBa@ROPy@l@k@f@KFg@d@cAt@SX@AEAMDGNiDjC{AnAoDpC{FnF]^]j@[Z@@DBXw@b@e@pEiE~CcCdGaFlA}@TWFCn@g@HKLGHKz@q@HIp@e@~BsBfAw@~@{@TKn@g@t@s@|AkAzCiCz@m@~@y@RMx@u@l@a@z@w@d@]`@]bDgCvAmAd@[`@_@lB_BVOpBeBhAy@NQHCf@a@NQn@g@h@i@p@e@NMXOBEz@q@vBeB"
+      }
+    },
+    {
+      "id": 18481620914,
+      "name": "Lunch Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-05-12T17:30:34Z",
+      "start_date_local": "2026-05-12T12:30:34Z",
+      "timezone": "(GMT-06:00) America/Chicago",
+      "distance": 7276.4,
+      "moving_time": 5065,
+      "elapsed_time": 5624,
+      "total_elevation_gain": 38.1,
+      "average_speed": 1.437,
+      "max_speed": 3.6,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        30.177713,
+        -95.570724
+      ],
+      "end_latlng": [
+        30.177711,
+        -95.570817
+      ],
+      "map": {
+        "summary_polyline": "_jewDtfifQWNu@p@WBYZRTBHTt@@FN^Lj@Fn@A\\Dt@CPAx@C`@Mn@Q^ARELEVGJIlA?VIj@@TJd@B^CN?TJ`A@`@@JDDAHBXE^@l@D\\Bx@FRBd@@nANj@Hp@Bx@DPLLJ|@@@ZKF?@DNr@LhATj@PbANRP^`@n@J^P`@DDLBPLPZBNTl@?XJ\\@DJFDRJ~@CP@d@Cp@K^Cd@KZ]h@WXKRe@j@]l@WNe@BMBUFORS?]Lc@Ag@Ga@?[EW?KCi@@m@KKEU@UGm@@c@Aa@KWAYOa@AOF}@C[GKGG@MGOAQ?IDKA[@[CU?YCKDw@CWCSBg@Eg@Dc@EQBa@Ge@?KB}@@c@BIAIBOAUFMA[HUBQ?OHq@Fg@LEDCAG@QFEFc@NMB[?YLILa@ZI@[PONMBa@Va@NYFSPM?EAQ@YCMBIHMBYQU@e@CWIMGKLMF[KSM[AO\\o@r@OV?FFBDAC@IQBEVg@d@m@FKNER@h@ZHCDG?IUKGAI@KGw@k@d@w@DENAFGJCHUXUX_@VU`@URSP]Z_@t@a@FIFQRWTK^YHMLI^e@j@i@|AyBRQTe@BULMPY@INWJ_@Xi@BMVg@BYFSBQX{ADc@JY@WH[BWFQ?[Ig@CIDq@HMBK?aBCqA?UE[CiAQsA?SEWEy@Oa@AIEEIa@GGG[AQWi@Ia@_AcCE]I_@IQOMKa@Yg@a@aA[_@Qg@BSKYQw@AUWs@Kq@G_AG_@IkB?i@EW?QDQEW?_@HyAF[AUFYBk@Po@AKH_@@YXy@?OBOd@_Bh@sAPUJ[NQNWTg@t@_AHYJFPRf@`@NT\\Vt@z@dBbBNRf@b@f@TNNBJFJHB\\V`CtB^TjAlAZVHNVZ^VND`@XFMEPVH^PVFRHP\\XNHD`@FXN\\ZRHNN@F\\RFHv@j@TVNR\\ZLDJHdAvAVSb@WTITUVG"
+      }
+    },
+    {
+      "id": 18469227341,
+      "name": "Afternoon Ride",
+      "type": "Ride",
+      "sport_type": "Ride",
+      "start_date": "2026-05-11T20:08:40Z",
+      "start_date_local": "2026-05-11T15:08:40Z",
+      "timezone": "(GMT-06:00) America/Chicago",
+      "distance": 22239.6,
+      "moving_time": 4309,
+      "elapsed_time": 5060,
+      "total_elevation_gain": 90.6,
+      "average_speed": 5.161,
+      "max_speed": 8.36,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 4,
+      "workout_type": null,
+      "start_latlng": [
+        30.177692,
+        -95.570837
+      ],
+      "end_latlng": [
+        30.177739,
+        -95.570863
+      ],
+      "map": {
+        "summary_polyline": "gjewDzfifQyB|AVXx@nDCpDy@`EMdCb@`GEdAPdEj@jFPLDz@l@GX`Cf@pBbAbBPl@dAfA^hBXb@BlC[|BeCrDoBp@u@LqKk@oA]mABkBYsQ?}Dd@uBt@a@@_EdC{@ZiAEWTeEcAoBkBY?s@s@yAc@QUiABgGi@}Cc@cDcAwGgEuB_CkA{BoAsDOsAy@}Au@uBGm@e@[{@{Bc@m@Ac@{@iACc@o@u@]eA}DsEoAmAa@GeIuFoCsDi@gBm@u@k@_Cg@qG@sB\\{D|AmKj@uBEu@ViB?oDe@oB_@cEAoAd@aCd@wCd@aATsBtAwBdAo@p@y@x@cC@{@]eDFy@Kq@f@sDyKgDa@q@iFcDkHeHs@QWi@_GwDoAkAa@EcAo@qEmFaEyGgAqA_GkC_@e@wAK_@Se@w@m@KwBiAuEq@Y[Fm@cAWBaAjA{Ft@gBA{@xByKvA_GTYCe@z@yEj@gA`@wDlBgHzA_EbA{B|@eBzByD|AeCbAy@Vm@GUl@cAn@]Ny@rCwFZ]n@qCz@oB\\[Do@x@cCZM^N\\TXp@|A`@bA|@fDjBpAzAx@Nh@l@INHZz@lAz@bARp@p@t@Zr@l@`@f@fAj@h@t@xAlBhC|DxCzIpEz@h@Fb@xBvA~BJ~GhD~BxAXb@~Ax@|E~@`EVdDM`GmArDcBhN_GxGsDlBe@fAo@tC_@TWEkA[]GcDPk@Qc@B{FVk@EoAV}CfAmGtAkEzCqHh@@j@\\b@t@\\D~ExCh@?d@VBPu@nAAQpAqCjFbBVItGfAjA@~F`Aj@KpA^bAC|IhBlAd@Er@[l@_@pE_@l@Fz@[d@?hBUV[bCq@~HsA`HyAzE_@|@]Z}@rCoArB?f@f@Vi@[KN[z@e@`@aC~F_C|Ho@vDm@bKXtKbAvH`AnE@b@Z`BXb@Hj@IHt@jCBtEs@bC_@f@{A~@qAVcFc@_EiAuBSYRIpFg@rCEtAY|Bo@zCk@rAEbAq@vCw@tBn@X|@CNXwDdK_AtDb@Bt@x@v@dBFp@]\\@f@d@|@Hj@XTt@zAb@|A@xAu@fBuG|Cc@l@a@BqAdBk@ZsA|AA`@[d@b@x@lHfG`@p@nD`BlC~ApCzBtCdD|BkA"
+      }
+    },
+    {
+      "id": 18330258765,
+      "name": "Morning E-Bike Ride",
+      "type": "EBikeRide",
+      "sport_type": "EBikeRide",
+      "start_date": "2026-05-01T09:45:40Z",
+      "start_date_local": "2026-05-01T10:45:40Z",
+      "timezone": "(GMT+00:00) Europe/London",
+      "distance": 5357.1,
+      "moving_time": 1314,
+      "elapsed_time": 2805,
+      "total_elevation_gain": 8.4,
+      "average_speed": 4.077,
+      "max_speed": 14.486,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        51.530222,
+        -0.105319
+      ],
+      "end_latlng": [
+        51.512156,
+        -0.079786
+      ],
+      "map": {
+        "summary_polyline": "wboyHtmS\\@\\OJ@FEB]IKEo@Mq@C_@_@yCu@iHAi@Kc@@g@FKHITEf@Qf@Yz@UnAe@\\E^In@WLBFITI~@Wv@YRKTE|@]HGh@Qf@E~Aq@t@QHGPGJ@d@Yt@u@HQBc@XIPKx@gAPIFI\\YH?RKJ@\\MJ?TI^IpAOh@JTC^FTEHDH@`@A^Ib@ELMDA`AGfAQrAOp@EX?dAOFTb@M`@CHEDBALD^AHEJAk@HYFe@Ay@F[Bg@XkAAqABmA@SH[CaBJQBLHFK_@BqBVmAFECJ?e@Es@GcDBsAPo@SLD[IcACgAE]Ba@C@FQ?IEe@@YAICA?gAHYPuAn@sIHu@DSBo@N}AF{@BQE]F@FEJm@CCFIDQ?B@AZwBJeAFQB[F}@Cc@CH@GBDBMB}@N_BAEC@CIR_DD]`@mALy@?IGSG?CCNPGK@EEAAIkAw@IEo@F?LG@OIAGCEdCcBBQPUEJJKDDFYF??GRYDMACb@}@@GRQBBDADILEFUl@oAFa@NYH_@@OLMFQDOFq@`@w@Hw@YmA@OKy@Og@KQM]U_AA]?MJi@DIPQFA`@q@FYAMYqAe@_BE_@Su@KW?OIUEYCA{@cDQgAm@mBUgAmAgDWa@IYUg@Qi@u@mBx@j@HJh@`BTf@H^b@rAd@dAZ^Td@z@jC?EAAt@bDL~@`@~ATnATn@A@XAJ`@Nr@B^ZdB`@dBETJTAADDRx@fBpIZ|@Lj@Nb@d@hALLFNRXNj@?LLT"
+      }
+    },
+    {
+      "id": 18328382673,
+      "name": "Morning E-Bike Ride",
+      "type": "EBikeRide",
+      "sport_type": "EBikeRide",
+      "start_date": "2026-05-01T07:40:29Z",
+      "start_date_local": "2026-05-01T08:40:29Z",
+      "timezone": "(GMT+00:00) Europe/London",
+      "distance": 4912.2,
+      "moving_time": 1055,
+      "elapsed_time": 1236,
+      "total_elevation_gain": 29,
+      "average_speed": 4.656,
+      "max_speed": 17.514,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        51.51695,
+        -0.067431
+      ],
+      "end_latlng": [
+        51.531371,
+        -0.106446
+      ],
+      "map": {
+        "summary_polyline": "yvlyHrqL^bApArCn@~BZ`AVzAH`@t@tB`@~A@JJZDN?\\EL?l@AJYn@o@~@A^@XFTv@zBHZTlAX~Bb@bBBVGVa@`AIXw@`Cm@bAKZMHSXKh@MRGZg@r@[p@KDGHGZGFCNQb@G|@EV@LAECROb@@TMf@QrBQ`ES|AWzCY~ACb@UdAUhBKxAGb@?VGl@GjAObAu@nIGz@CnACZQn@Vb@Gz@@b@CbABzAaAOBRLLJz@HxAApAe@`@ADEBWJ@EC@?RMn@BPAp@LxAT`@^zDBl@AN[_HTt@?NGb@@JFJ@\\@zDGRSLAHOC@@BIA[CIKOKCKDW@qATq@HODG?IFg@FqA^_@FIRCPBb@L|@HpA^dDNx@VzBJ`@?Ln@vCVx@b@~AZtAB`@FN@ROb@]\\SX}@v@G?GEKUWcAUq@S}@KSQCK@MEe@Ci@FgAEg@[_@GUAOJcBj@SFK?QHK?QD]Xg@Hy@?}@Ta@PSFSLuAxAWLQTIDOTSPGJULkAlAUNGJSNu@RU?]GM?u@Uk@Ii@ESBMDa@b@SHe@\\GJQNKBc@ZK?IHSBAB@@K@IDQA}@HsAI}@Aq@?g@HYJCHKB"
+      }
+    },
+    {
+      "id": 18267095609,
+      "name": "Afternoon E-Bike Ride",
+      "type": "EBikeRide",
+      "sport_type": "EBikeRide",
+      "start_date": "2026-04-26T14:10:31Z",
+      "start_date_local": "2026-04-26T15:10:31Z",
+      "timezone": "(GMT+00:00) Europe/London",
+      "distance": 3197.6,
+      "moving_time": 725,
+      "elapsed_time": 830,
+      "total_elevation_gain": 8.6,
+      "average_speed": 4.41,
+      "max_speed": 13.967,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        51.52001,
+        -0.101004
+      ],
+      "end_latlng": [
+        51.517471,
+        -0.07426
+      ],
+      "map": {
+        "summary_polyline": "ynmyH|cRE[GaAKk@JOFC`@INITARKHBHAHCz@OtAETIj@IRITCf@IHVD^EUDUz@sCJk@@_AA_@CiEEi@EWE_BBe@FGBMJq@EmAI_@Bu@@{@Ec@EKCw@BIDEB[COBKI{@GM@WJ_@JaAN[CM@UCKB[EOBM@qAZsDZoERsBFKB]CSBCBa@DUFaAj@oCVqBDsAHe@ZaHHs@Aa@VkAHIPy@FIFCBKGWq@a@SSNMCG@OmBkAm@u@BOFQNg@LMTc@z@sAtBwBb@W]Hl@{@JIf@k@Tc@LOLUrB{@CSUg@KOOc@I[Gu@IW"
+      }
+    },
+    {
+      "id": 18265238077,
+      "name": "Lunch Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-04-26T10:28:37Z",
+      "start_date_local": "2026-04-26T11:28:37Z",
+      "timezone": "(GMT+00:00) Europe/London",
+      "distance": 7292.4,
+      "moving_time": 5918,
+      "elapsed_time": 6531,
+      "total_elevation_gain": 32.9,
+      "average_speed": 1.232,
+      "max_speed": 3.98,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 5,
+      "workout_type": null,
+      "start_latlng": [
+        51.508353,
+        -0.078788
+      ],
+      "end_latlng": [
+        51.510783,
+        -0.138778
+      ],
+      "map": {
+        "summary_polyline": "qikyHjiN}As@EDAh@KZ@REDFAGBKvC@JDDL?FXI~@F^JPb@d@DZZz@@RF??HETHjA?|@Eb@IFFP?TGn@?n@GVE`AMbAAvAGlA@TYzBAd@UfADH?t@K~@Ax@BNC@O|AGZE@BPGDDPEDAl@I\\G~@C@?d@I^At@Ef@UXEND\\IZB`@ALMd@[h@CN?h@G`@?b@]p@E^URHORHBOE?KKCOKIGNSPB?ATPvA@fAKbA?PIh@BJAXUr@AVEH?|@WlD@PH@IV@HCTBAAEC`@KZ@VCKHh@EjAF`A?NIXDlAQFVDGB^ACn@ITHd@APVj@Bp@Jn@AJOb@KHD@DLM~DG~PBbACf@NJ?DYZ?PJn@CZB^Al@LZD|@KF?DJf@CXBZGr@@l@Fb@D~ADb@DP@Xk@rCBHEt@@z@Cz@DdACfC@z@@FGZA`@BDCX?^I`@@r@C|@BNCXBzALnENfCLD@|@GR^`E?\\FVDt@j@pDBn@v@nDB^HP?Ld@bBJl@ZbAl@dBJDDPV\\f@pA`@n@JHFP`@j@TRn@v@VPN@PN@NNNx@n@BC\\`@b@TRTTLDGVBLNJV~@x@PBh@^bB`@JJp@LDHnAPLBDH`@?RNxAXlBTh@PJADHvALh@JJHlAFTJv@?ZD|@f@b@HHNDPCRFd@@\\CbFFTLNB^IhAE@Kl@I|@Ld@JJD^GNYDOJGVEl@?^EPAlBIfBDXX@\\JC\\RrABdDAh@BfABPCDFN[D@EEHGKG?OFB~@AJNhBCFJ|@AVDd@DxAx@JTGf@@cALQJC??G]HO[@KK}AIKEHARBf@OXBh@OLWr@iAxB_Af@MPiA^WPEACHYFoBv@ACBGTUJB@El@Mr@_@@GGc@QWq@yAI_@c@{@e@YM?EOQMGMMEQQK_@C[@CWs@EEG_@cAkAKYe@m@sAyBGWLa@AMTSS_BIY?SG?OTMZYQEGCYHa@P_@Fc@[K_ANINYPQ^QDEHG`@Vd@VrB?TGh@GN[h@MHS`@OBe@ZWFaAv@GPDB?\\OHu@`ASOW@MNKB]d@OHIPq@d@KRQLINa@Pu@n@s@^Wb@m@`@IL?JLb@Zl@?HHH@LCCOLAHHf@AJKTk@ZKZH`A?p@GV?j@WnAa@z@K`@"
+      }
+    },
+    {
+      "id": 17905648851,
+      "name": "Chasing Saca",
+      "type": "Ride",
+      "sport_type": "Ride",
+      "start_date": "2026-03-29T16:16:18Z",
+      "start_date_local": "2026-03-29T09:16:18Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 55960.4,
+      "moving_time": 8226,
+      "elapsed_time": 8874,
+      "total_elevation_gain": 83,
+      "average_speed": 6.803,
+      "max_speed": 9.02,
+      "average_heartrate": 164.4,
+      "max_heartrate": 188,
+      "kudos_count": 4,
+      "workout_type": null,
+      "start_latlng": [
+        47.589457,
+        -122.086726
+      ],
+      "end_latlng": [
+        47.564821,
+        -122.053363
+      ],
+      "map": {
+        "summary_polyline": "ycnaHpfdhVsBy@yHwG}EsAaBaAmBqCgDmIyAwBiB}AgWuJgMeIaNkNsa@mf@wEsC{^wCeE^aQnFuC~AuErEgDjAmCA{GyBkCKoWRuJlA}IpFkLzJuXhc@{WhVgIlLcHzE{JbMiC|AsIrBePrJyAxAuE~HyIlDgLdGuVlXU`D?fHPbCItMN`AhAn@dIq@bBXnAvAZIIb@ZnEChIu@`DiDdDiFxCcC|Co@jFGbGeBfGLnDdB`EM`Ln@lIj@vAfB`An@xA]bFq@dBHdAlB`C}@dByBjAqCl@sCYwDsBoSvCkB|@yA|AOrCKy@kAkB_@fD@nCo@hDsCpHcA`AeAZmDg@qB\\uDnA{FiB}LR{He@_Ir@i[H{DZmDdA{CxAsBhBqDjEcCdEqGdFsF~HuJfDcPlUmDfEq@ZcBCgEoBqJ^yF_Dyf@g@}Ag@wBt@kqAkBgE\\iI|BoBLuEOqBiAk@D[^QlAqBpAsIhJiDf@oDU_D|AmDtEiEdMcA|BgAbAuFpC}AtBiJpGeGx@aD`BaLhOkC|IwGxHaEnGg@bBa@~D}AxBsAlFkCj@yEpFqDfBaDa@u@Xw@|Ac@m@Rj@`@}@f@[bCj@vBo@tC{AnDgEbDgA`AqEnBsCn@sFl@yA~C{EbI}IvCcKhK}MrC}AxGaAdIyFfBsBpGqDr@s@`BcDfDiK|C_FpDcBfEH`Di@fHaIxCuBXwA\\]d@DhAfAxDVvD[dGeBbIm@voApBzBw@nAd@xf@n@vFvCpJ_@nEpBhA@t@SxA}AhKgNvF{IbJwC|FeIdHyFnCoEjD_EzFwDjDaAdFc@dY@dJm@jE`@hPYvF~AbEwAxBEvAj@dAApAk@z@cAzD{J\\sK~@xAGp@EeAj@s@`CqB`Ba@vRsCvGbCnBIdDmA|BgCaCgCKk@l@mB`@wFc@eAqBsAk@oAo@}HJwMuAwCY_DR_BtAmEJiHT{Bf@}AxAiBtJgHjAgCNaNi@mBL{Ae@gBPaGeBoFUsBz@eEpA{Ii@sCSqBZiAMuC`GwF`KsF|HyCrAuAvDoGjEqDxKiG|HgBvCaBnKqM|HoFbIsLhWyU|Xqc@|I}H`JuFfHaBt\\k@pBHpGvB~CAbDqAjHkG|T_HnES|[pCfBt@fClBr`@he@jJfK`FfErHvEnVxIbCvAhBtBtEzKdBdCrBlAdFpAlIjHdEVxYaSxJiAhJcG~@kBlB}GhAoLx@cE`DcH~DiDnQ_I|BgBlHeNdKuLnGyJfD{I|BeJrByM|CcZpC_JtCwDpHoE\\r@xCLhAv@ZbCaAjFa@\\sBk@"
+      }
+    },
+    {
+      "id": 17845390702,
+      "name": "Lunch Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-03-24T19:40:41Z",
+      "start_date_local": "2026-03-24T12:40:41Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 2823,
+      "moving_time": 1992,
+      "elapsed_time": 2310,
+      "total_elevation_gain": 16.2,
+      "average_speed": 1.417,
+      "max_speed": 2.553,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [
+        37.765077,
+        -122.42772
+      ],
+      "end_latlng": [
+        37.78353,
+        -122.408469
+      ],
+      "map": {
+        "summary_polyline": "_hoeFnnfjVQCa@HQ?i@Fq@BSA_ADGc@@WCIKASB[?qAL_BBEBMAECg@s@a@g@s@eAUW]g@o@s@S]a@c@Sa@SUWc@MKMUgAuA_CmDg@k@We@c@m@eAgA_@s@aAkAO]y@cAg@w@KIMUc@e@IQSW[g@o@y@OU[WAEEEQ[ECIYIIMEM]i@g@We@E??EGMk@q@CAc@s@OYKIKO[[QYQK[s@a@a@QWc@g@Sk@YSUYAGOOQYy@_AEO]a@OYKKeA}AIWOIm@{@KI_@k@MKWi@GCa@i@SQIQg@q@O_@c@[W_@Yg@KIg@q@e@w@kA{AKUs@u@]k@kAyAGQQMKSSUCM]e@SOW_@"
+      }
+    },
+    {
+      "id": 17835923255,
+      "name": "Night Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-03-24T04:29:41Z",
+      "start_date_local": "2026-03-23T21:29:41Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 1119.1,
+      "moving_time": 839,
+      "elapsed_time": 919,
+      "total_elevation_gain": 8.2,
+      "average_speed": 1.334,
+      "max_speed": 2.247,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [
+        37.781254,
+        -122.395686
+      ],
+      "end_latlng": [
+        37.788491,
+        -122.402199
+      ],
+      "map": {
+        "summary_polyline": "knreFzx`jVG@AFY\\_@l@WRMTQb@UNWb@c@f@CFSPCJIFO\\e@j@KF[h@_@^CPGBAJAAIDQZa@^CJKNGFGJm@z@UTU`@[Zg@r@]\\S\\EJORQ^SJEVc@b@A\\FHGNMBGIC?YLKJGRAHUNS?MBKIKAMUWU"
+      }
+    },
+    {
+      "id": 17749187466,
+      "name": "Evening Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-03-17T01:33:38Z",
+      "start_date_local": "2026-03-16T18:33:38Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 1564.9,
+      "moving_time": 1335,
+      "elapsed_time": 2286,
+      "total_elevation_gain": 5.7,
+      "average_speed": 1.172,
+      "max_speed": 1.98,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [
+        47.352796,
+        -122.05551
+      ],
+      "end_latlng": [
+        47.352775,
+        -122.055673
+      ],
+      "map": {
+        "summary_polyline": "qx_`Hrl~gVNr@N^PPHBDADFJBDCp@?JBjF?JC@QHHNBLH|AIXIXQXULQ^q@Rw@Hk@DKBkAE_As@wEKk@AIg@wCIGOBw@?"
+      }
+    },
+    {
+      "id": 17725061385,
+      "name": "Afternoon Ride",
+      "type": "Ride",
+      "sport_type": "Ride",
+      "start_date": "2026-03-14T23:05:00Z",
+      "start_date_local": "2026-03-14T16:05:00Z",
+      "timezone": "(GMT-07:00) America/Creston",
+      "distance": 16111.5,
+      "moving_time": 2022,
+      "elapsed_time": 2022,
+      "total_elevation_gain": 0,
+      "average_speed": 7.968,
+      "max_speed": 9.464,
+      "average_heartrate": 146.4,
+      "max_heartrate": 160,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [],
+      "end_latlng": [],
+      "map": null
+    },
+    {
+      "id": 17416842154,
+      "name": "Evening Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-02-16T01:31:05Z",
+      "start_date_local": "2026-02-15T19:31:05Z",
+      "timezone": "(GMT-06:00) America/Mexico_City",
+      "distance": 2578.9,
+      "moving_time": 2399,
+      "elapsed_time": 2826,
+      "total_elevation_gain": 8,
+      "average_speed": 1.075,
+      "max_speed": 3.425,
+      "average_heartrate": 103.6,
+      "max_heartrate": 136,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [
+        17.785556,
+        -101.729999
+      ],
+      "end_latlng": [
+        17.774899,
+        -101.713133
+      ],
+      "map": {
+        "summary_polyline": "qppkBxy{kRZc@Z]RO^e@^WbAeAr@_Al@i@HQVWb@o@Xm@DABEXeAz@wBHYA?EHHUJKZq@X}@DUNc@d@y@Ti@X]d@gALUDS|AoDDEJAHIf@}@V]~@gBHU@_@p@qAh@}@@EKCC@D@IC?EBAJBEFDA@B?AF?UJF@Re@t@_ATe@f@o@pBoD^eANW\\Uz@mAjBiDRY@Id@g@NWAEv@aA\\q@BOVc@"
+      }
+    },
+    {
+      "id": 17416842292,
+      "name": "Afternoon Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-02-15T23:21:37Z",
+      "start_date_local": "2026-02-15T17:21:37Z",
+      "timezone": "(GMT-06:00) America/Mexico_City",
+      "distance": 3591.6,
+      "moving_time": 3608,
+      "elapsed_time": 4295,
+      "total_elevation_gain": 11,
+      "average_speed": 0.995,
+      "max_speed": 1.7,
+      "average_heartrate": 100.6,
+      "max_heartrate": 113,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        17.774685,
+        -101.713416
+      ],
+      "end_latlng": [
+        17.786492,
+        -101.731877
+      ],
+      "map": {
+        "summary_polyline": "sqnkBxcykRDRJJBHLLDLEJED?TCTQb@[ZIRBHa@XW\\QPORc@\\Q^URm@`A_@d@[r@UTOZc@b@wApB]p@]z@m@x@Q`@WVM`@UXE@_@v@[\\a@r@QZIDGXQ^AJMPWd@Qf@Y^_@v@KJi@|@Sd@y@jAu@~@GNMd@_@bACLa@r@e@lAa@p@_AlBGXO`@Mp@?FC?K\\GFEd@_@p@DDCCGD@XKHIBDPMBMLKXWT@BADE@KRMFIR[\\OJSXMF_@d@ID@@AFe@~@_A|ASTQZKXk@hAmAnB_BhDUn@Yh@[z@mCtFEPO^MVe@l@Wp@g@z@KXc@v@s@z@Wf@eBxDOXMJ@IE]Ru@V_@j@yAv@wALe@Xs@@IN[@O\\]DMGE]BOASQGM"
+      }
+    },
+    {
+      "id": 17400495396,
+      "name": "Afternoon Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-02-14T23:51:38Z",
+      "start_date_local": "2026-02-14T17:51:38Z",
+      "timezone": "(GMT-06:00) America/Mexico_City",
+      "distance": 2465.7,
+      "moving_time": 2192,
+      "elapsed_time": 2306,
+      "total_elevation_gain": 4,
+      "average_speed": 1.125,
+      "max_speed": 1.9,
+      "average_heartrate": 101.5,
+      "max_heartrate": 113,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [
+        17.774917,
+        -101.713779
+      ],
+      "end_latlng": [
+        17.774509,
+        -101.713375
+      ],
+      "map": {
+        "summary_polyline": "mqnkBrcykRNb@R^BLKL?PCHCd@QZm@r@OV_@\\KPe@b@o@~@}@`AeBhCe@`ASPIPs@~@AD[h@ELMVgBbD_ApAg@~@GRe@t@Sd@ORITaBrCY^K^_@j@O^z@eBBM?Qx@y@v@iAFU\\m@MKJALK|@cBl@aAFURWt@yAh@{@b@k@h@eAlAgBl@gATm@R_@vBkCVa@n@k@d@i@fA{ANWLm@AKNSAGGEU]"
+      }
+    },
+    {
+      "id": 17364812163,
+      "name": "Lunch Swim",
+      "type": "Swim",
+      "sport_type": "Swim",
+      "start_date": "2026-02-11T17:33:27Z",
+      "start_date_local": "2026-02-11T11:33:27Z",
+      "timezone": "(GMT-06:00) America/Mexico_City",
+      "distance": 202.1,
+      "moving_time": 661,
+      "elapsed_time": 661,
+      "total_elevation_gain": 0,
+      "average_speed": 0.306,
+      "max_speed": 4.02,
+      "average_heartrate": 95.5,
+      "max_heartrate": 115,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [],
+      "end_latlng": [],
+      "map": null
+    },
+    {
+      "id": 17332976768,
+      "name": "Lunch Ride",
+      "type": "Ride",
+      "sport_type": "Ride",
+      "start_date": "2026-02-08T17:50:31Z",
+      "start_date_local": "2026-02-08T11:50:31Z",
+      "timezone": "(GMT-06:00) America/Mexico_City",
+      "distance": 3094.5,
+      "moving_time": 801,
+      "elapsed_time": 1866,
+      "total_elevation_gain": 15,
+      "average_speed": 3.863,
+      "max_speed": 5.45,
+      "average_heartrate": 146.9,
+      "max_heartrate": 166,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [
+        17.774676,
+        -101.713291
+      ],
+      "end_latlng": [
+        17.774496,
+        -101.713479
+      ],
+      "map": {
+        "summary_polyline": "yynkBzfykRqCvD{AhCW^iApByBnEaA`BsB~Cu@nAgBnDo@fAI@OG[UMOkAeAu@e@gByAAEFUh@{@p@yAR]`AwB?WCCgAw@AKGJ?Bv@f@\\\\?HSl@iBfDO^w@pAbD`CfCtBPBv@sAr@eBv@wA`DqFlA_BZy@~@uBzC}E|A{BbAcB"
+      }
+    },
+    {
+      "id": 17187715695,
+      "name": "Hola Buenos Aires",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-01-26T21:50:32Z",
+      "start_date_local": "2026-01-26T18:50:32Z",
+      "timezone": "(GMT-03:00) America/Argentina/Buenos_Aires",
+      "distance": 3316.7,
+      "moving_time": 2566,
+      "elapsed_time": 3051,
+      "total_elevation_gain": 22.5,
+      "average_speed": 1.293,
+      "max_speed": 2.283,
+      "average_heartrate": 123.3,
+      "max_heartrate": 144,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        -34.616384,
+        -58.362207
+      ],
+      "end_latlng": [
+        -34.597385,
+        -58.3769
+      ],
+      "map": {
+        "summary_polyline": "|pgrE`|ecJ_AHWFSAICUAYJY?UHI?o@HSESBi@AMT]FIJAHGHEb@Kh@G@GGUDMAA@APFp@ETIBw@Jo@DOBaBDs@He@@y@Ho@?c@F}ADoBJa@DU?K@AFBRDvA?ZH^?v@B\\ATF`AEPGBY@UFIAEByAJ[?WCy@LGDa@DIA]Bs@@q@Ca@Hm@BMDk@Aa@F_A@eATqAD]FIAO@YEy@LeAFI?UDKAiAHUEKDUAi@Hm@DQBaAB_@He@BUCm@JS@]B]Ck@FICa@Ha@pAYt@GF_B^SCc@BYTADB|@Cb@ARIRBDAF?HBBIb@?^Ij@HjA?fABZFX?bACPJ~@?n@Lj@FfBDVChA@b@DVCN?RFb@@h@DVAt@HTG\\J|@Ad@BNCN?XFP?jA@ZH^ABBF?LHl@Ah@DVAJ@J?EB?d@NGZIJKDK@k@CMFSE"
+      }
+    }
+  ]
 }

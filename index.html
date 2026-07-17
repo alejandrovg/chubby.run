@@ -115,6 +115,16 @@
         <div class="stat-tile"><span class="stat-value" id="statLongest">–</span><span class="stat-label">km longest run</span></div>
       </div>
 
+      <figure class="predictor-card" id="predictorCard">
+        <figcaption>
+          <h3>Predicted marathon finish</h3>
+          <span class="predictor-tag">Riegel's formula</span>
+        </figcaption>
+        <div class="predictor-time" id="predictorTime" aria-live="polite">--:--:--</div>
+        <p class="predictor-note" id="predictorNote">Waiting for recent runs since January 2026…</p>
+        <ul class="predictor-runs" id="predictorRuns"></ul>
+      </figure>
+
       <div class="charts-grid">
         <figure class="chart-card chart-card--wide" id="weeklyChartCard">
           <figcaption>
@@ -226,6 +236,7 @@
 <script src="js/polyline.js"></script>
 <script src="js/charts.js"></script>
 <script src="js/map.js"></script>
+<script src="js/predictor.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

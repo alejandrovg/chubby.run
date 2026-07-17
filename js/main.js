@@ -193,6 +193,7 @@
       renderStats(payload);
       renderCharts(payload);
       ChubbyMap.render(payload.activities || []);
+      ChubbyPredictor.render(payload);
     } catch (err) {
       console.error('[chubby.run] could not load Strava data:', err);
       document.querySelectorAll('.chart-mount').forEach((mount) => {

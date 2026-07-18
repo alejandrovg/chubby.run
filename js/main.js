@@ -91,8 +91,9 @@
   function fmtKm(v) { return v.toLocaleString(undefined, { maximumFractionDigits: 1 }); }
   function fmtPace(minPerKm) {
     if (minPerKm == null) return '—';
-    const mins = Math.floor(minPerKm);
-    const secs = Math.round((minPerKm - mins) * 60);
+    let mins = Math.floor(minPerKm);
+    let secs = Math.round((minPerKm - mins) * 60);
+    if (secs === 60) { secs = 0; mins += 1; }
     return `${mins}:${String(secs).padStart(2, '0')}/km`;
   }
   function fmtMonth(key) {

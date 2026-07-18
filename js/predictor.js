@@ -24,8 +24,9 @@ const ChubbyPredictor = (() => {
 
   function fmtPace(distanceM, movingTimeS) {
     const minPerKm = (movingTimeS / 60) / (distanceM / 1000);
-    const mins = Math.floor(minPerKm);
-    const secs = Math.round((minPerKm - mins) * 60);
+    let mins = Math.floor(minPerKm);
+    let secs = Math.round((minPerKm - mins) * 60);
+    if (secs === 60) { secs = 0; mins += 1; }
     return `${mins}:${String(secs).padStart(2, '0')}/km`;
   }
 

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dashboards — chubby.run</title>
+<meta name="description" content="Run and walk activity dashboard for the road to the 2027 TCS London Marathon — powered by daily Strava data." />
+<link rel="canonical" href="https://www.thechubbyrunner.site/dashboards.html" />
+
+<link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html" aria-label="chubby.run home">
+      <img src="assets/logos/logo.png" alt="" class="brand-mark" width="44" height="44" />
+      <span class="brand-word">chubby<span class="brand-dot">.run</span></span>
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primaryNav">
+      <a href="index.html#about">About</a>
+      <a href="index.html#progress">Progress</a>
+      <a href="index.html#map">Map</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#medals">Medals</a>
+      <a href="dashboards.html" aria-current="page">Dashboards</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="section" id="dash-overview">
+    <div class="wrap">
+      <p class="eyebrow">Run &amp; walk breakdown</p>
+      <h2>Activity dashboard</h2>
+      <p class="section-lead">Every run and walk logged since January 2026, pulled straight from Strava and refreshed every day — last synced <span id="lastSynced">—</span>.</p>
+
+      <div class="stat-row" id="dashStatRow" aria-live="polite">
+        <div class="stat-tile"><span class="stat-value" id="dashRunCount">–</span><span class="stat-label">runs logged</span></div>
+        <div class="stat-tile"><span class="stat-value" id="dashRunDistance">–</span><span class="stat-label">km run</span></div>
+        <div class="stat-tile"><span class="stat-value" id="dashRunPace">–</span><span class="stat-label">avg run pace</span></div>
+        <div class="stat-tile"><span class="stat-value" id="dashWalkCount">–</span><span class="stat-label">walks logged</span></div>
+        <div class="stat-tile"><span class="stat-value" id="dashWalkDistance">–</span><span class="stat-label">km walked</span></div>
+        <div class="stat-tile"><span class="stat-value" id="dashWalkPace">–</span><span class="stat-label">avg walk pace</span></div>
+      </div>
+
+      <figure class="predictor-card" id="predictorCard">
+        <figcaption>
+          <h3>Predicted marathon finish</h3>
+          <span class="predictor-tag">Riegel's formula</span>
+        </figcaption>
+        <div class="predictor-time" id="predictorTime" aria-live="polite">--:--:--</div>
+        <p class="predictor-note" id="predictorNote">Waiting for recent runs since January 2026…</p>
+        <ul class="predictor-runs" id="predictorRuns"></ul>
+      </figure>
+
+      <div class="charts-grid">
+        <figure class="chart-card chart-card--wide" id="weeklyChartCard">
+          <figcaption>
+            <h3>Weekly distance</h3>
+            <button class="table-toggle" data-target="weeklyChartTable" aria-expanded="false">View as table</button>
+          </figcaption>
+          <div class="chart-mount" id="weeklyChartMount"></div>
+          <div class="chart-table-wrap" id="weeklyChartTable" hidden></div>
+        </figure>
+
+        <figure class="chart-card" id="progressChartCard">
+          <figcaption>
+            <h3>Cumulative distance</h3>
+            <button class="table-toggle" data-target="progressChartTable" aria-expanded="false">View as table</button>
+          </figcaption>
+          <div class="chart-mount" id="progressChartMount"></div>
+          <div class="chart-table-wrap" id="progressChartTable" hidden></div>
+        </figure>
+
+        <figure class="chart-card" id="elevationChartCard">
+          <figcaption>
+            <h3>Monthly elevation gain</h3>
+            <button class="table-toggle" data-target="elevationChartTable" aria-expanded="false">View as table</button>
+          </figcaption>
+          <div class="chart-mount" id="elevationChartMount"></div>
+          <div class="chart-table-wrap" id="elevationChartTable" hidden></div>
+        </figure>
+
+        <figure class="chart-card" id="paceChartCard">
+          <figcaption>
+            <h3>Average pace trend</h3>
+            <button class="table-toggle" data-target="paceChartTable" aria-expanded="false">View as table</button>
+          </figcaption>
+          <div class="chart-mount" id="paceChartMount"></div>
+          <div class="chart-table-wrap" id="paceChartTable" hidden></div>
+        </figure>
+      </div>
+
+      <figure class="chart-card chart-card--wide" id="recentActivityCard">
+        <figcaption>
+          <h3>Recent run &amp; walk activities</h3>
+        </figcaption>
+        <div class="chart-table-wrap" id="recentActivityTable"></div>
+      </figure>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <img src="assets/logos/logo.png" alt="" class="footer-mark" width="28" height="28" />
+    <p>chubby.run — training data refreshes daily via the Strava API. Not affiliated with or endorsed by Strava or the TCS London Marathon.</p>
+  </div>
+</footer>
+
+<script src="js/charts.js"></script>
+<script src="js/predictor.js"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>

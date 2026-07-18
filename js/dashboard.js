@@ -106,6 +106,67 @@
     wrap.replaceChildren(table);
   }
 
+  function renderTimeHeatmap(activities) {
+    const wrap = document.getElementById('heatmapTable');
+    const runsAndWalks = activities.filter((a) => ['Run', 'Walk'].includes(a.type) || ['Run', 'Walk'].includes(a.sport_type));
+    if (!runsAndWalks.length) {
+      wrap.textContent = 'No run or walk activities logged since January 2026 yet.';
+      return;
+    }
+
+    // grid[hour][dayOfWeek], dayOfWeek 0=Sun..6=Sat, to match the reference layout
+    const grid = Array.from({ length: 24 }, () => Array(7).fill(0));
+    let max = 0;
+    runsAndWalks.forEach((a) => {
+      const d = new Date(a.start_date_local ?? a.start_date);
+      const hour = d.getHours();
+      const day = d.getDay();
+      grid[hour][day] += 1;
+      if (grid[hour][day] > max) max = grid[hour][day];
+    });
+
+    const dayLabels = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const hourLabel = (h) => {
+      const period = h < 12 ? 'AM' : 'PM';
+      const displayHour = h % 12 === 0 ? 12 : h % 12;
+      return `${displayHour}:00 ${period}`;
+    };
+
+    const table = document.createElement('table');
+    table.className = 'heatmap-table';
+    const thead = document.createElement('thead');
+    const headRow = document.createElement('tr');
+    ['Start time', ...dayLabels].forEach((h) => {
+      const th = document.createElement('th');
+      th.textContent = h;
+      headRow.appendChild(th);
+    });
+    thead.appendChild(headRow);
+    table.appendChild(thead);
+
+    const tbody = document.createElement('tbody');
+    grid.forEach((row, hour) => {
+      const tr = document.createElement('tr');
+      const th = document.createElement('th');
+      th.scope = 'row';
+      th.textContent = hourLabel(hour);
+      tr.appendChild(th);
+      row.forEach((count, day) => {
+        const td = document.createElement('td');
+        if (count > 0) {
+          const intensity = 0.18 + 0.72 * (count / max);
+          td.style.backgroundColor = `rgba(252, 76, 2, ${intensity.toFixed(2)})`;
+          if (intensity > 0.55) td.style.color = '#fff';
+          td.textContent = count;
+        }
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    wrap.replaceChildren(table);
+  }
+
   function renderCharts(payload) {
     const { aggregates } = payload;
 
@@ -165,6 +226,7 @@
       }
 
       renderBreakdown(activities);
+      renderTimeHeatmap(activities);
       renderRecentActivityTable(activities);
       renderCharts(payload);
       ChubbyPredictor.render(payload);

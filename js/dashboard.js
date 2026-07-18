@@ -229,6 +229,7 @@
       renderTimeHeatmap(activities);
       renderRecentActivityTable(activities);
       renderCharts(payload);
+      ChubbyMap.render(activities);
       ChubbyPredictor.render(payload);
     } catch (err) {
       console.error('[chubby.run] dashboards: could not load Strava data:', err);

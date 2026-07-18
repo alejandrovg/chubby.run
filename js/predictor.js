@@ -84,6 +84,8 @@ const ChubbyPredictor = (() => {
 
   function render(payload) {
     const note = document.getElementById('predictorNote');
+    if (!note) return; // predictor card isn't on this page — nothing to render
+
     const runs = (payload.activities || [])
       .filter((a) => a.type === 'Run' || a.sport_type === 'Run')
       .filter((a) => a.distance >= 1000) // ignore very short/GPS-noise entries

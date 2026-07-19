@@ -70,7 +70,11 @@
     status.textContent = 'Triggering Strava re-sync…';
 
     try {
-      const res = await fetch('trigger-refresh.php', { method: 'POST' });
+      const res = await fetch('trigger-refresh.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source: 'command-center-button' }),
+      });
       const body = await res.json().catch(() => ({}));
       if (!res.ok || !body.ok) throw new Error(body.error || `HTTP ${res.status}`);
       status.textContent = 'Sync triggered — new data lands in about 1–2 minutes. Reload the page after that.';

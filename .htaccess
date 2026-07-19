@@ -7,7 +7,7 @@ RewriteRule ^ https://www.thechubbyrunner.site%{REQUEST_URI} [L,R=301]
 
 # Defense in depth: never serve secrets or source-only folders even if they
 # end up in this directory by accident.
-<FilesMatch "^\.env">
+<FilesMatch "^\.env|^\.refresh-lock">
   Require all denied
 </FilesMatch>
 RewriteRule ^scripts/ - [F,L]

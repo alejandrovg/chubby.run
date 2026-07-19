@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T01:52:08.742Z",
+  "fetched_at": "2026-07-19T04:47:48.035Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -83,7 +83,7 @@
       "max_speed": 3.378,
       "average_heartrate": null,
       "max_heartrate": null,
-      "kudos_count": 0,
+      "kudos_count": 1,
       "workout_type": null,
       "start_latlng": [
         47.310288,

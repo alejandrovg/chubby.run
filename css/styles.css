@@ -169,6 +169,15 @@ button { font-family: inherit; cursor: pointer; }
 
 /* ---------- Charts ---------- */
 .charts-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+
+/* Dashboards page: even vertical rhythm between every top-level card/figure. */
+#dash-overview .stat-row,
+#dash-overview .predictor-card,
+#dash-overview .charts-grid,
+#dash-overview .map-shell,
+#dash-overview .wrap > .chart-card {
+  margin-bottom: 1.5rem;
+}
 .chart-card {
   background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 1.4rem 1.4rem 1rem; margin: 0;

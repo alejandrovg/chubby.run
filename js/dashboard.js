@@ -72,10 +72,12 @@
       return;
     }
 
+    const columnLabels = ['Date', 'Type', 'Name', 'Distance (km)', 'Time', 'Pace'];
     const table = document.createElement('table');
+    table.className = 'activity-log-table';
     const thead = document.createElement('thead');
     const headRow = document.createElement('tr');
-    ['Date', 'Type', 'Name', 'Distance (km)', 'Time', 'Pace'].forEach((h) => {
+    columnLabels.forEach((h) => {
       const th = document.createElement('th');
       th.textContent = h;
       headRow.appendChild(th);
@@ -95,9 +97,10 @@
         fmtDuration(a.moving_time),
         fmtPaceMinKm(paceMinKm),
       ];
-      cells.forEach((c) => {
+      cells.forEach((c, i) => {
         const td = document.createElement('td');
         td.textContent = c;
+        td.setAttribute('data-label', columnLabels[i]);
         tr.appendChild(td);
       });
       tbody.appendChild(tr);

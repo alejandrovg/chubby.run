@@ -1,0 +1,130 @@
+/* Command Center — dark mission-control reskin, layered on top of styles.css.
+   Re-themes the shared design-token custom properties so every existing
+   component (stat tiles, chart internals, tables, predictor card) inherits
+   the dark palette automatically — no component CSS is duplicated here. */
+
+.cc-body {
+  --bg: #101116;
+  --surface: #171922;
+  --ink: #F3F1EA;
+  --ink-secondary: #ABA9A2;
+  --ink-muted: #74726C;
+  --line: #2B2D36;
+  --accent: #FF5A1F;
+  --accent-dark: #D6430B;
+
+  --chart-1: #FF5A1F;
+  --chart-2: #5B8FFF;
+  --chart-3: #3FD182;
+  --chart-4: #B27CFF;
+  --chart-grid: #2B2D36;
+  --chart-track: #1D1F28;
+
+  --shadow-soft: 0 1px 2px rgba(0,0,0,0.3), 0 12px 32px rgba(0,0,0,0.45);
+
+  background:
+    radial-gradient(circle at 15% 0%, rgba(255,90,31,0.10), transparent 45%),
+    radial-gradient(circle at 90% 20%, rgba(91,143,255,0.08), transparent 40%),
+    var(--bg);
+}
+
+.cc-body .site-header { background: rgba(16,17,22,0.86); border-bottom-color: var(--line); }
+.cc-body .brand-word { color: var(--ink); }
+.cc-body .primary-nav a { color: var(--ink-secondary); }
+.cc-body .primary-nav a:hover, .cc-body .primary-nav a[aria-current="page"] { color: var(--ink); border-color: var(--accent); }
+.cc-body .nav-toggle span { background: var(--ink); }
+@media (max-width: 760px) { .cc-body .primary-nav.is-open { background: var(--bg); } }
+
+.cc-body .site-footer { border-top-color: var(--line); }
+.cc-body .footer-inner p { color: var(--ink-muted); }
+.cc-body .footer-mark { filter: invert(1) brightness(1.6); opacity: 0.5; }
+
+/* ---------- Masthead ---------- */
+.cc-masthead { padding: 56px 0 44px; text-align: center; border-bottom: 1px solid var(--line); }
+.cc-masthead-inner { display: flex; flex-direction: column; align-items: center; }
+.cc-masthead-mark { width: 64px; height: 64px; object-fit: contain; margin-bottom: 1.2rem; filter: invert(1) brightness(1.8); }
+.cc-eyebrow {
+  font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.2em;
+  color: var(--accent); font-weight: 600; font-size: 0.8rem; margin: 0 0 0.6em;
+}
+.cc-title {
+  font-family: var(--font-display); text-transform: uppercase; font-weight: 700;
+  font-size: clamp(2rem, 1.5rem + 3vw, 3.6rem); color: var(--ink); margin: 0 0 0.4em; line-height: 1.02;
+}
+.cc-sub { color: var(--ink-secondary); max-width: 52ch; margin: 0 auto 2rem; }
+
+.cc-countdown { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+.cc-countdown-unit {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 14px 20px; min-width: 84px; box-shadow: var(--shadow-soft);
+}
+.cc-countdown-num {
+  display: block; font-family: "JetBrains Mono", var(--font-display); font-weight: 600; font-size: 2.1rem;
+  color: var(--accent); font-variant-numeric: tabular-nums; line-height: 1; text-shadow: 0 0 18px rgba(255,90,31,0.45);
+}
+.cc-countdown-label { display: block; margin-top: 5px; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-muted); }
+
+.cc-status-line {
+  margin: 1.4rem 0 0; font-family: "JetBrains Mono", monospace; font-size: 0.78rem; color: var(--ink-muted);
+  display: inline-flex; align-items: center; gap: 8px;
+}
+.cc-status-dot {
+  width: 8px; height: 8px; border-radius: 50%; background: var(--chart-3);
+  box-shadow: 0 0 8px var(--chart-3); display: inline-block;
+}
+.cc-status-dot.is-syncing { background: var(--accent); box-shadow: 0 0 8px var(--accent); animation: cc-pulse 1s ease-in-out infinite; }
+.cc-status-dot.is-error { background: #FF4D4D; box-shadow: 0 0 8px #FF4D4D; }
+@keyframes cc-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+/* ---------- Panels ---------- */
+.cc-section { padding: 48px 0 80px; }
+.cc-panel-label {
+  font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.14em; font-weight: 600;
+  font-size: 0.78rem; color: var(--ink-muted); margin: 2.4rem 0 0.8rem; padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line);
+}
+.cc-section > .wrap > .cc-panel-label:first-child { margin-top: 0; }
+
+.cc-body .stat-row { background: var(--line); border-color: var(--line); }
+.cc-body .stat-tile { background: var(--surface); }
+.cc-body .stat-value { color: var(--ink); }
+
+.cc-body .chart-card, .cc-body .map-shell { background: var(--surface); border-color: var(--line); box-shadow: var(--shadow-soft); }
+.cc-body .table-toggle { border-color: var(--line); color: var(--ink-secondary); }
+.cc-body .table-toggle:hover { border-color: var(--accent); color: var(--accent); }
+.cc-body .chart-table-wrap th, .cc-body .chart-table-wrap td { border-color: var(--line); }
+
+.cc-predictor-card {
+  background: var(--surface); border: 1px solid rgba(255,90,31,0.35);
+  box-shadow: 0 0 0 1px rgba(255,90,31,0.08), var(--shadow-soft);
+}
+
+/* ---------- Refresh panel ---------- */
+.cc-refresh-panel { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--line); text-align: center; }
+.cc-refresh-btn {
+  display: inline-flex; align-items: center; gap: 10px; background: var(--accent); color: #fff;
+  border: none; border-radius: 999px; padding: 14px 28px; font-family: var(--font-display);
+  text-transform: uppercase; letter-spacing: 0.08em; font-weight: 600; font-size: 0.95rem;
+  box-shadow: 0 0 24px rgba(255,90,31,0.35); transition: transform 150ms, box-shadow 150ms, opacity 150ms;
+}
+.cc-refresh-btn:hover { transform: translateY(-1px); box-shadow: 0 0 32px rgba(255,90,31,0.5); }
+.cc-refresh-btn:disabled { opacity: 0.55; cursor: not-allowed; transform: none; }
+.cc-refresh-icon {
+  width: 14px; height: 14px; border: 2px solid rgba(255,255,255,0.8); border-top-color: transparent;
+  border-radius: 50%; display: inline-block;
+}
+.cc-refresh-btn:not(.is-loading) .cc-refresh-icon { border: none; width: 10px; height: 10px; background: #fff; border-radius: 2px; }
+.cc-refresh-btn.is-loading .cc-refresh-icon { animation: cc-spin 800ms linear infinite; }
+@keyframes cc-spin { to { transform: rotate(360deg); } }
+.cc-refresh-status { margin: 0.9rem 0 0; font-size: 0.82rem; color: var(--ink-muted); font-family: "JetBrains Mono", monospace; }
+
+@media (prefers-reduced-motion: reduce) {
+  .cc-status-dot.is-syncing, .cc-refresh-btn.is-loading .cc-refresh-icon { animation: none; }
+}
+
+@media (max-width: 760px) {
+  .cc-masthead { padding: 40px 0 32px; }
+  .cc-countdown-unit { min-width: 70px; padding: 10px 14px; }
+  .cc-countdown-num { font-size: 1.6rem; }
+  .cc-section { padding: 32px 0 56px; }
+}

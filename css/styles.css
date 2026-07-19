@@ -199,6 +199,27 @@ button { font-family: inherit; cursor: pointer; }
 .heatmap-table thead th { font-family: var(--font-body); font-weight: 600; color: var(--ink-secondary); text-transform: uppercase; letter-spacing: 0.03em; font-size: 0.65rem; padding-bottom: 6px; }
 .heatmap-table tbody th { text-align: right; font-weight: 400; color: var(--ink-muted); white-space: nowrap; padding-right: 10px; font-size: 0.68rem; }
 .heatmap-table td { border-radius: 3px; min-width: 34px; color: var(--ink); }
+.heatmap-table thead th:first-child,
+.heatmap-table tbody th {
+  position: sticky; left: 0; background: var(--bg); z-index: 1;
+}
+
+/* Recent-activity log: collapses from a table into stacked cards on narrow
+   screens instead of forcing horizontal scroll. */
+@media (max-width: 640px) {
+  .activity-log-table thead { display: none; }
+  .activity-log-table, .activity-log-table tbody, .activity-log-table tr, .activity-log-table td { display: block; width: 100%; }
+  .activity-log-table tr { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 8px 12px; margin-bottom: 10px; }
+  .activity-log-table td {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+    text-align: right; border-bottom: 1px dashed var(--line); padding: 6px 0;
+  }
+  .activity-log-table tr td:last-child { border-bottom: none; }
+  .activity-log-table td::before {
+    content: attr(data-label); text-align: left; font-weight: 600; color: var(--ink-secondary);
+    text-transform: uppercase; font-size: 0.68rem; letter-spacing: 0.03em;
+  }
+}
 
 .chart-table-wrap table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 0.8rem; }
 .chart-table-wrap caption { text-align: left; font-size: 0.75rem; color: var(--ink-muted); margin-bottom: 0.4rem; }

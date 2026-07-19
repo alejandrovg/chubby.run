@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Dashboards — chubby.run</title>
-<meta name="description" content="Run and walk activity dashboard for the road to the 2027 TCS London Marathon — powered by daily Strava data." />
-<link rel="canonical" href="https://www.thechubbyrunner.site/dashboards.html" />
+<title>Progress Tracking Dashboard — chubby.run</title>
+<meta name="description" content="Command center for the road to the 2027 TCS London Marathon — live Strava data, projections, and progress tracking." />
+<link rel="canonical" href="https://www.thechubbyrunner.site/" />
 
 <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico" />
 <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png" />
@@ -13,46 +13,51 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
 <link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/command-center.css" />
 </head>
-<body>
+<body class="cc-body">
 
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header" id="top">
+<header class="site-header cc-header" id="top">
   <div class="wrap header-inner">
     <a class="brand" href="index.html" aria-label="chubby.run home">
-      <img src="assets/logos/logo.png" alt="" class="brand-mark" width="44" height="44" />
+      <img src="assets/logos/logo-bnw.png" alt="" class="brand-mark" width="44" height="44" />
       <span class="brand-word">chubby<span class="brand-dot">.run</span></span>
     </a>
-    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="primary-nav" id="primaryNav">
-      <a href="index.html#about">About</a>
-      <a href="index.html#progress">Progress</a>
-      <a href="index.html#map">Map</a>
-      <a href="index.html#gallery">Gallery</a>
-      <a href="index.html#medals">Medals</a>
-      <a href="dashboards.html" aria-current="page">Dashboards</a>
-      <a href="index.html">Command Center</a>
-    </nav>
   </div>
 </header>
 
 <main id="main">
+  <section class="cc-masthead">
+    <div class="wrap cc-masthead-inner">
+      <img src="assets/logos/logo-bnw.png" alt="chubby.run" class="cc-masthead-mark" />
+      <p class="cc-eyebrow">chubby.run · mission control</p>
+      <h1 class="cc-title">Progress Tracking Dashboard</h1>
+      <p class="cc-sub">Every mile, every metric, one screen — the road to the TCS London Marathon, 24–25 April 2027.</p>
 
-  <section class="section" id="dash-overview">
+      <div class="cc-countdown" id="countdown" aria-live="polite">
+        <div class="cc-countdown-unit"><span class="cc-countdown-num" id="cdDays">–</span><span class="cc-countdown-label">days</span></div>
+        <div class="cc-countdown-unit"><span class="cc-countdown-num" id="cdHours">–</span><span class="cc-countdown-label">hrs</span></div>
+        <div class="cc-countdown-unit"><span class="cc-countdown-num" id="cdMins">–</span><span class="cc-countdown-label">min</span></div>
+        <div class="cc-countdown-unit"><span class="cc-countdown-num" id="cdSecs">–</span><span class="cc-countdown-label">sec</span></div>
+      </div>
+      <p class="cc-status-line">
+        <span class="cc-status-dot" id="statusDot"></span>
+        <span id="lastSyncedLine">Data link — last synced <span id="lastSynced">—</span></span>
+      </p>
+    </div>
+  </section>
+
+  <section class="cc-section">
     <div class="wrap">
-      <p class="eyebrow">Run &amp; walk breakdown</p>
-      <h2>Activity dashboard</h2>
-      <p class="section-lead">Every run and walk logged since January 2026, pulled straight from Strava and refreshed every day — last synced <span id="lastSynced">—</span>.</p>
-
-      <div class="stat-row" id="dashStatRow" aria-live="polite">
+      <p class="cc-panel-label">Run &amp; walk telemetry</p>
+      <div class="stat-row cc-stat-row" id="dashStatRow" aria-live="polite">
         <div class="stat-tile"><span class="stat-value" id="dashRunCount">–</span><span class="stat-label">runs logged</span></div>
         <div class="stat-tile"><span class="stat-value" id="dashRunDistance">–</span><span class="stat-label">km run</span></div>
         <div class="stat-tile"><span class="stat-value" id="dashRunPace">–</span><span class="stat-label">avg run pace</span></div>
@@ -61,7 +66,8 @@
         <div class="stat-tile"><span class="stat-value" id="dashWalkPace">–</span><span class="stat-label">avg walk pace</span></div>
       </div>
 
-      <figure class="predictor-card" id="predictorCard">
+      <p class="cc-panel-label">Marathon projection</p>
+      <figure class="predictor-card cc-predictor-card" id="predictorCard">
         <figcaption>
           <h3>Predicted marathon finish</h3>
           <span class="predictor-tag">Riegel's formula</span>
@@ -71,6 +77,16 @@
         <ul class="predictor-runs" id="predictorRuns"></ul>
       </figure>
 
+      <p class="cc-panel-label">Activity map — all activity types</p>
+      <div class="map-shell cc-map-shell">
+        <div id="activityMap" class="activity-map" role="application" aria-label="Interactive map of all training activities"></div>
+        <div class="map-legend">
+          <span class="map-legend-item"><i class="map-legend-swatch"></i>Activity route</span>
+          <span class="map-legend-item map-legend-goal"><i class="map-legend-swatch"></i>London Marathon 2027 course start</span>
+        </div>
+      </div>
+
+      <p class="cc-panel-label">Trends</p>
       <div class="charts-grid">
         <figure class="chart-card chart-card--wide" id="weeklyChartCard">
           <figcaption>
@@ -109,36 +125,36 @@
         </figure>
       </div>
 
-      <div class="map-shell">
-        <div id="activityMap" class="activity-map" role="application" aria-label="Interactive map of training runs"></div>
-        <div class="map-legend">
-          <span class="map-legend-item"><i class="map-legend-swatch"></i>Run route</span>
-          <span class="map-legend-item map-legend-goal"><i class="map-legend-swatch"></i>London Marathon 2027 course start</span>
-        </div>
-      </div>
-
+      <p class="cc-panel-label">Behavior</p>
       <figure class="chart-card chart-card--wide" id="heatmapCard">
         <figcaption>
           <h3>Workout time preference</h3>
         </figcaption>
-        <p class="section-lead" style="margin-bottom:0.8rem;">When runs and walks actually happen — activity count by day of week and hour.</p>
         <div class="chart-table-wrap heatmap-wrap" id="heatmapTable"></div>
       </figure>
 
+      <p class="cc-panel-label">Activity log</p>
       <figure class="chart-card chart-card--wide" id="recentActivityCard">
         <figcaption>
           <h3>Recent run &amp; walk activities</h3>
         </figcaption>
         <div class="chart-table-wrap" id="recentActivityTable"></div>
       </figure>
+
+      <div class="cc-refresh-panel">
+        <button class="cc-refresh-btn" id="refreshBtn" type="button">
+          <span class="cc-refresh-icon" aria-hidden="true"></span>
+          Refresh Strava data
+        </button>
+        <p class="cc-refresh-status" id="refreshStatus">Triggers a full Strava re-sync (takes 1–2 minutes to land).</p>
+      </div>
     </div>
   </section>
-
 </main>
 
-<footer class="site-footer">
+<footer class="site-footer cc-footer">
   <div class="wrap footer-inner">
-    <img src="assets/logos/logo.png" alt="" class="footer-mark" width="28" height="28" />
+    <img src="assets/logos/logo-bnw.png" alt="" class="footer-mark" width="24" height="24" />
     <p>chubby.run — training data refreshes daily via the Strava API. Not affiliated with or endorsed by Strava or the TCS London Marathon.</p>
   </div>
 </footer>
@@ -149,5 +165,6 @@
 <script src="js/map.js"></script>
 <script src="js/predictor.js"></script>
 <script src="js/dashboard.js"></script>
+<script src="js/command-center.js"></script>
 </body>
 </html>

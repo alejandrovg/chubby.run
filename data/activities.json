@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-25T09:02:33.552Z",
+  "fetched_at": "2026-07-26T09:12:40.742Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -9,34 +9,34 @@
   },
   "lifetime_stats": {
     "recent_run_totals": {
-      "count": 2,
-      "distance": 10408.3,
-      "moving_time": 4331,
-      "elapsed_time": 4377,
-      "elevation_gain": 80,
+      "count": 3,
+      "distance": 17424.699999999997,
+      "moving_time": 7064,
+      "elapsed_time": 7113,
+      "elevation_gain": 127.1,
       "achievement_count": 0
     },
     "ytd_run_totals": {
-      "count": 4,
-      "distance": 20593,
-      "moving_time": 8453,
-      "elapsed_time": 8980,
-      "elevation_gain": 148.3
+      "count": 5,
+      "distance": 27610,
+      "moving_time": 11186,
+      "elapsed_time": 11716,
+      "elevation_gain": 195.4
     },
     "all_run_totals": {
-      "count": 231,
-      "distance": 1608983.7999999993,
-      "moving_time": 683671,
-      "elapsed_time": 673819,
-      "elevation_gain": 9685.300000000003
+      "count": 232,
+      "distance": 1616000.1999999993,
+      "moving_time": 686404,
+      "elapsed_time": 676555,
+      "elevation_gain": 9732.400000000001
     }
   },
   "aggregates": {
-    "run_count": 4,
-    "total_distance_km": 20.6,
-    "total_elevation_gain_m": 148,
-    "total_moving_time_s": 8453,
-    "longest_run_km": 6.5,
+    "run_count": 5,
+    "total_distance_km": 27.6,
+    "total_elevation_gain_m": 195,
+    "total_moving_time_s": 11186,
+    "longest_run_km": 7,
     "weekly": [
       {
         "week": "2026-06-08",
@@ -52,7 +52,7 @@
       },
       {
         "week": "2026-07-20",
-        "distance_km": 3.9
+        "distance_km": 11
       }
     ],
     "monthly": [
@@ -64,13 +64,43 @@
       },
       {
         "month": "2026-07",
-        "distance_km": 10.4,
-        "elevation_gain_m": 80,
-        "avg_pace_min_km": 6.94
+        "distance_km": 17.4,
+        "elevation_gain_m": 127,
+        "avg_pace_min_km": 6.76
       }
     ]
   },
   "activities": [
+    {
+      "id": 19465736916,
+      "name": "Buckley and back",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-07-25T23:28:47Z",
+      "start_date_local": "2026-07-25T16:28:47Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 7016.4,
+      "moving_time": 2733,
+      "elapsed_time": 2736,
+      "total_elevation_gain": 47.1,
+      "average_speed": 2.567,
+      "max_speed": 3.638,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 3,
+      "workout_type": 0,
+      "start_latlng": [
+        47.192511,
+        -121.999064
+      ],
+      "end_latlng": [
+        47.192511,
+        -121.999076
+      ],
+      "map": {
+        "summary_polyline": "cz__HzjsgV\\`@^^DFNLDJTPDHHFFJd@\\DJv@t@PT^\\DHRN@FVVFBDJPHDJD?DJHDn@v@HDXZFDz@v@l@t@HDLPRNLP~@~@LRl@h@VDFBDRDj@JNf@P^TPRTPNXRRhCdCt@`AzAxALRFDLNZVLRZVLPFBDFh@b@LPRPT\\h@b@l@v@j@h@t@\\^Xd@j@bAbAl@x@ZV^f@NL\\`@Zd@R^BJb@v@`@l@R`@Tt@Rf@f@`ANd@NVBRVp@Xd@Rd@BL\\r@z@nCf@~@Pf@FD`@~@RNdAFVJb@V^DDB^?VFNJ\\b@J^DXJFNGD@FHL`BNjAPb@Zf@d@Vl@Rh@VfA`@RL^Jj@\\h@RFF\\LNLP@`@T^JVRLBXPPDPJ`@LHHJ@bAf@r@NHDDFRHFFVJJNL`@TlAR|AZl@`@^NFd@DJD@DFDTVZTXXv@j@rAnALF^^`@`@`@h@FDRDZTJRxAzAFNDX`@j@d@j@LLF@BC@Oa@[_@_@QUkAmAGO]YYc@SU]MYSg@m@[[KAIImAmA_@WQW]U[_@m@c@m@GMEWSQ[Qo@Mm@Em@[oASa@a@S_@Mq@YQMMCGGa@GQKy@Uk@]CGYKa@Y{@[c@E_@YkH_DUS[e@M[C[SeAImACICCUDKUKa@MSQQQOWGc@?g@GMGUOm@Ui@@QEIGSWMYg@}AECCQOWi@iBQ_@Oo@Yy@]k@Wm@Ka@QUIU]m@Yo@G[Qa@GIEA]g@Sc@K]]g@MWS[MIMU_@c@IQm@y@Y]{@y@o@y@GAGKSGe@[ICq@g@KQq@w@qBoBqAyAQKAG]WGKc@_@wA_BmAgAMEIISWEMY_@q@u@e@c@SWQK[IS[AYCOEE]Ma@_@[_@WQGK_@YIK]a@S[mAeAa@k@q@a@IO[Uq@iASMo@}@q@c@]g@_@Q[SGIMWg@m@Wc@i@c@"
+      }
+    },
     {
       "id": 19440033106,
       "name": "Quick jog",

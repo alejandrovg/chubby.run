@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-31T09:44:56.053Z",
+  "fetched_at": "2026-08-01T05:47:32.426Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -71,6 +71,28 @@
     ]
   },
   "activities": [
+    {
+      "id": 19550170643,
+      "name": "Evening Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-08-01T03:41:39Z",
+      "start_date_local": "2026-07-31T20:41:39Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 675,
+      "moving_time": 712,
+      "elapsed_time": 863,
+      "total_elevation_gain": 3.7,
+      "average_speed": 0.948,
+      "max_speed": 1.6,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [],
+      "end_latlng": [],
+      "map": null
+    },
     {
       "id": 19509300507,
       "name": "Evening Walk",

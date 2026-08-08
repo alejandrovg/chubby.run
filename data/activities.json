@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T07:49:38.565Z",
+  "fetched_at": "2026-08-08T20:58:26.481Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -17,26 +17,26 @@
       "achievement_count": 0
     },
     "ytd_run_totals": {
-      "count": 5,
-      "distance": 27610,
-      "moving_time": 11186,
-      "elapsed_time": 11716,
-      "elevation_gain": 195.4
+      "count": 6,
+      "distance": 37935,
+      "moving_time": 15250,
+      "elapsed_time": 16899,
+      "elevation_gain": 381.20000000000005
     },
     "all_run_totals": {
-      "count": 232,
-      "distance": 1616000.1999999993,
-      "moving_time": 686404,
-      "elapsed_time": 676555,
-      "elevation_gain": 9732.400000000001
+      "count": 233,
+      "distance": 1626325.0999999994,
+      "moving_time": 690468,
+      "elapsed_time": 681738,
+      "elevation_gain": 9918.200000000003
     }
   },
   "aggregates": {
-    "run_count": 5,
-    "total_distance_km": 27.6,
-    "total_elevation_gain_m": 195,
-    "total_moving_time_s": 11186,
-    "longest_run_km": 7,
+    "run_count": 6,
+    "total_distance_km": 37.9,
+    "total_elevation_gain_m": 381,
+    "total_moving_time_s": 15250,
+    "longest_run_km": 10.3,
     "weekly": [
       {
         "week": "2026-06-08",
@@ -53,6 +53,10 @@
       {
         "week": "2026-07-20",
         "distance_km": 11
+      },
+      {
+        "week": "2026-08-03",
+        "distance_km": 10.3
       }
     ],
     "monthly": [
@@ -67,10 +71,46 @@
         "distance_km": 17.4,
         "elevation_gain_m": 127,
         "avg_pace_min_km": 6.76
+      },
+      {
+        "month": "2026-08",
+        "distance_km": 10.3,
+        "elevation_gain_m": 186,
+        "avg_pace_min_km": 6.56
       }
     ]
   },
   "activities": [
+    {
+      "id": 19659609605,
+      "name": "Lunch Run",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-08-08T18:50:51Z",
+      "start_date_local": "2026-08-08T11:50:51Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 10324.9,
+      "moving_time": 4064,
+      "elapsed_time": 5183,
+      "total_elevation_gain": 185.8,
+      "average_speed": 2.541,
+      "max_speed": 4.033,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 0,
+      "workout_type": null,
+      "start_latlng": [
+        48.550711,
+        -123.162511
+      ],
+      "end_latlng": [
+        48.608202,
+        -123.152715
+      ],
+      "map": {
+        "summary_polyline": "wxigH~qvnV_BF_CIiAJo@E}@DiAEuCFeBCiAFo@G_@DuBAeDu@e@CQUWCkADaDb@kADq@JuA?{BXkADc@CiAFg@De@RqBC[DsC@cBF}@AYI[S]g@U{@E{@AgADwACM@YEsADwA@qEBSIo@DeACcAB]CwA?uBAM@SAaABo@CY@uACkBBM?}AC[B[JoJTu@LSb@c@\\OxDPx@GrB@VNbAEh@Dj@K\\MXYZs@Hg@Bc@@cBCo@BgBCiA@s@AG@c@Eq@FoAEy@@_@Cs@@o@C_AE[Aa@B}AEyDDaAC}ACMF}FEkAA}AFeBCs@BuAEu@?[BUA_B@c@C_BIy@QSWI[?]NcAHk@NMAMHWEQJUBSJyA^QAoBd@e@BeAZ_@DMAo@TiAAq@OgGoCcBm@aEgBeDgB[]]Ic@]MY}Au@{AUoAAoCBQNU@iECeDnAuGdEqA~@oDvB}FvDcAz@oAz@OTe@^CJ_@ReA|@_@NAFk@FiARg@JMHiABEFqCd@O?k@TGHQv@UXI@MPQHIP[XMXMHOVIDGVUd@c@n@Q`@IHw@fAMVAFgDtDaAXW@i@VGHCCo@`@qAEi@_@GPIBmAIm@QCDQBYLo@LeAFi@Ac@MWTc@D]PM`@_@b@Q@m@ZWV{@xAqAF]HUTITA^EREfABTC^D^INuAX[T[DSPg@EKHi@@IEWNK]Ge@bBkAGMAk@DOEu@@u@KYYSWMKQm@e@SE_@JYa@ESAWLQGODWCSIW@a@Ns@`@o@@QSy@?m@KUEUS]Ke@OGUa@C_@UgAICUUi@SIWMIIUeAoAM_@KBOC?MWs@Ee@KE@MKW@AE_@Yc@Ys@GCKPK@GFOCyCiEEk@[q@s@]IAc@_@_@MQM@Ic@_@_@ACG[Q[MIIwDwAg@_@i@W{@cAOa@[]s@sAC?M_@e@s@I_@u@qAMOSg@e@y@sBsBs@}@UICK_Aw@KOKE_@]w@Yg@?e@Ow@KIBe@GsBuOoBzA_@TYNKN[RMDu@h@KPw@h@GJ_@N[ZSJ]XgAfAKPWPa@j@YX[f@SNe@n@YRg@v@k@j@U`@iAfCaBlEUt@KRw@vBKLGZKNGXoBhFc@rBC`@GVQlB]`G?d@Iv@KdBEvAAlAVnGJl@JLTJz@JLHDJDd@Cd@LpB?p@EV"
+      }
+    },
     {
       "id": 19576197145,
       "name": "Afternoon Walk",

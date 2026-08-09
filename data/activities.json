@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-08T20:58:26.481Z",
+  "fetched_at": "2026-08-09T07:53:38.083Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -9,11 +9,11 @@
   },
   "lifetime_stats": {
     "recent_run_totals": {
-      "count": 3,
-      "distance": 17424.699999999997,
-      "moving_time": 7064,
-      "elapsed_time": 7113,
-      "elevation_gain": 127.1,
+      "count": 4,
+      "distance": 27749.6,
+      "moving_time": 11128,
+      "elapsed_time": 12296,
+      "elevation_gain": 312.9,
       "achievement_count": 0
     },
     "ytd_run_totals": {
@@ -83,7 +83,7 @@
   "activities": [
     {
       "id": 19659609605,
-      "name": "Lunch Run",
+      "name": "Cabaña Carmel to Roche",
       "type": "Run",
       "sport_type": "Run",
       "start_date": "2026-08-08T18:50:51Z",
@@ -97,8 +97,8 @@
       "max_speed": 4.033,
       "average_heartrate": null,
       "max_heartrate": null,
-      "kudos_count": 0,
-      "workout_type": null,
+      "kudos_count": 4,
+      "workout_type": 0,
       "start_latlng": [
         48.550711,
         -123.162511

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-09T07:53:38.083Z",
+  "fetched_at": "2026-08-10T08:26:26.422Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -82,6 +82,36 @@
   },
   "activities": [
     {
+      "id": 19674264007,
+      "name": "Afternoon Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-08-09T21:10:55Z",
+      "start_date_local": "2026-08-09T14:10:55Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 2125.1,
+      "moving_time": 2278,
+      "elapsed_time": 2533,
+      "total_elevation_gain": 54.4,
+      "average_speed": 0.933,
+      "max_speed": 1.992,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [
+        48.597733,
+        -123.131678
+      ],
+      "end_latlng": [
+        48.597762,
+        -123.131538
+      ],
+      "map": {
+        "summary_polyline": "irrgHr_pnVXQDA@@XKn@ALCN@H?CN?CB@@CD?JEB@D??AF@BCHAD@DADBHATB?LA?PICFNAZ@FF@EVD?A@BJCR?VKJMLGDIL]@KDEDMDCH_@FMAIR_@FWLYz@e@BADBEJCI@@@E?@DCADD?TMJ??LCC?AROf@KB@HAFDBGJ?LIBBJMD@VCBEVIHG?@XW?G@H@EA@B?BMAIDGDSFK?QD_@JSD]DE?QLUBW@?AEDMHKF[`@a@FQ@[WeAAS@IPGTHXBVAVMN[BODi@DMAM@G?O?E@BAGD[Li@T]LI?CA@AADFAE@KLFDCCFE?GEAKER?AGJE?CFA@?ASLg@GICk@EY?YDWHa@`@OVKb@GDGp@ONSCKI@GCABAE??CQAOIc@K?GQ@WCAC[D_@ES?SKAEG?_@U@EEA?EGBGC?GM?AEE@ABUCC@AAG?EAODO?IDKA@@?CI?KDACc@^C@ACEDYp@KdA@NC\\GT?HMP_@b@IBCFWHKJM@EDSFOH@AK@SF@EG@KLQ@MAEBM?MLILCVBp@EL?RIhAEJCB@VCd@@CA@@DG^?VGb@A@ATK`A"
+      }
+    },
+    {
       "id": 19659609605,
       "name": "Cabaña Carmel to Roche",
       "type": "Run",
@@ -97,7 +127,7 @@
       "max_speed": 4.033,
       "average_heartrate": null,
       "max_heartrate": null,
-      "kudos_count": 4,
+      "kudos_count": 5,
       "workout_type": 0,
       "start_latlng": [
         48.550711,

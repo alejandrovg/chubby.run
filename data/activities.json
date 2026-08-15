@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-14T16:41:35.935Z",
+  "fetched_at": "2026-08-15T07:29:56.161Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -81,6 +81,36 @@
     ]
   },
   "activities": [
+    {
+      "id": 19745998203,
+      "name": "Evening Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-08-15T01:04:59Z",
+      "start_date_local": "2026-08-14T18:04:59Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 2747.5,
+      "moving_time": 2248,
+      "elapsed_time": 2586,
+      "total_elevation_gain": 10.9,
+      "average_speed": 1.222,
+      "max_speed": 3.033,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 0,
+      "workout_type": null,
+      "start_latlng": [
+        47.352343,
+        -122.054437
+      ],
+      "end_latlng": [
+        47.352766,
+        -122.055421
+      ],
+      "map": {
+        "summary_polyline": "ie_`Hhz}gVfAvGJ`BAdAMbAY`AUb@i@l@g@XAB_@?EBm@DkACEBSAq@BICIBYAe@@UCK@OAKBcAAQ@_@KUSQ_@Mo@CiABsB?wA@SCo@MRGFG@FCFBARBq@Ce@Ni@?yFJSNIT?H@TAH@Z?TBr@C\\@DCb@BBGBc@AcBCGEA}@DOC{@Fy@BGBQ@_@?UDo@BUFM@MNBf@CdA@jFEXDvAAL?p@Ch@C`BBfACtABLAf@@n@AR@lBAtACPBN?d@@NFFDA`@Ft@AR?DBJENA\\Fn@CL@VCJBh@?RCD@NEVKPEVOV]JSLMNg@Jm@FoACk@BsAA{A"
+      }
+    },
     {
       "id": 19674264007,
       "name": "Afternoon Walk",

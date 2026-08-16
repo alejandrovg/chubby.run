@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-15T07:29:56.161Z",
+  "fetched_at": "2026-08-16T07:30:26.412Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -10,32 +10,32 @@
   "lifetime_stats": {
     "recent_run_totals": {
       "count": 4,
-      "distance": 27749.6,
-      "moving_time": 11128,
-      "elapsed_time": 12296,
-      "elevation_gain": 312.9,
+      "distance": 27850.699999999997,
+      "moving_time": 10885,
+      "elapsed_time": 12049,
+      "elevation_gain": 302.9,
       "achievement_count": 0
     },
     "ytd_run_totals": {
-      "count": 6,
-      "distance": 37935,
-      "moving_time": 15250,
-      "elapsed_time": 16899,
-      "elevation_gain": 381.20000000000005
+      "count": 7,
+      "distance": 44509,
+      "moving_time": 17718,
+      "elapsed_time": 19400,
+      "elevation_gain": 427.20000000000005
     },
     "all_run_totals": {
-      "count": 233,
-      "distance": 1626325.0999999994,
-      "moving_time": 690468,
-      "elapsed_time": 681738,
-      "elevation_gain": 9918.200000000003
+      "count": 234,
+      "distance": 1632899.8999999994,
+      "moving_time": 692936,
+      "elapsed_time": 684239,
+      "elevation_gain": 9964.200000000003
     }
   },
   "aggregates": {
-    "run_count": 6,
-    "total_distance_km": 37.9,
-    "total_elevation_gain_m": 381,
-    "total_moving_time_s": 15250,
+    "run_count": 7,
+    "total_distance_km": 44.5,
+    "total_elevation_gain_m": 427,
+    "total_moving_time_s": 17718,
     "longest_run_km": 10.3,
     "weekly": [
       {
@@ -57,6 +57,10 @@
       {
         "week": "2026-08-03",
         "distance_km": 10.3
+      },
+      {
+        "week": "2026-08-10",
+        "distance_km": 6.6
       }
     ],
     "monthly": [
@@ -74,13 +78,73 @@
       },
       {
         "month": "2026-08",
-        "distance_km": 10.3,
-        "elevation_gain_m": 186,
-        "avg_pace_min_km": 6.56
+        "distance_km": 16.9,
+        "elevation_gain_m": 232,
+        "avg_pace_min_km": 6.44
       }
     ]
   },
   "activities": [
+    {
+      "id": 19758090129,
+      "name": "Afternoon Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-08-15T20:40:41Z",
+      "start_date_local": "2026-08-15T13:40:41Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 1998.3,
+      "moving_time": 1754,
+      "elapsed_time": 2079,
+      "total_elevation_gain": 12,
+      "average_speed": 1.139,
+      "max_speed": 1.96,
+      "average_heartrate": 112.7,
+      "max_heartrate": 126,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        47.35262,
+        -122.055101
+      ],
+      "end_latlng": [
+        47.352807,
+        -122.055527
+      ],
+      "map": {
+        "summary_polyline": "eg_`Htu}gVNLR?HZHx@Nx@P~AJ\\Dl@DHb@vB@~@BVKlA^f@`@VDNHt@FLBADY[OAGGIOQ]S_@ASn@q@zAKNPRNF?F@CEGYFe@BoAPm@A]HSCOGKAYGMDKEiBD[Ic@?]@YD[M[]O[Mm@"
+      }
+    },
+    {
+      "id": 19757260419,
+      "name": "Lunch Run",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-08-15T18:50:19Z",
+      "start_date_local": "2026-08-15T11:50:19Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 6574.8,
+      "moving_time": 2468,
+      "elapsed_time": 2501,
+      "total_elevation_gain": 46,
+      "average_speed": 2.664,
+      "max_speed": 5.02,
+      "average_heartrate": 172.7,
+      "max_heartrate": 190,
+      "kudos_count": 4,
+      "workout_type": null,
+      "start_latlng": [
+        47.352475,
+        -122.055291
+      ],
+      "end_latlng": [
+        47.368742,
+        -122.029339
+      ],
+      "map": {
+        "summary_polyline": "wz_`Hzr}gVOo@Ia@BaAKc@ImAQ{@Ma@K{@?}@Bq@VkA@mBHkCAe@Bg@Ai@EuAFw@A}AJm@K{@aCyDm@q@Sc@QUOMMSi@k@c@ICI[Mm@c@UY_@WM?_@[QWUa@OQ_@g@_Aa@IBAEMAOMoAYYD{AA_@EaBFiDc@a@KeBE{@Im@M[Eu@@_@HSEOKW@o@Ki@JYAm@_@m@QIE]K_@E_@SSEi@YWI{@K_@FWLkAP{@`@c@NEF[HUX]TMBc@d@i@Te@N[Fa@NUBa@\\YDQFa@Hm@\\k@LSNu@TYZYT]b@w@PYh@[b@e@PWj@[Z{@fAk@Je@TEA}@bAYH[Z_Ar@[Zg@|@k@PY`@c@LQNM`@k@^a@Ne@bACNWd@i@Ag@Le@`@wAx@U@OFa@HWEQ@[IIEg@g@YUEKe@e@Yc@e@_@aAi@u@Bi@IwAGo@Ri@Mc@FCDYBe@Cc@Iq@A]BOEU?KCCQQYOUKASLi@Ne@VUD?CGBwAMg@?m@RaA@g@Ao@W]C?MHW@ONo@HOD@DJ?FKPAJ@OLg@Fo@VsAFs@JOXw@Rw@P[BGCc@Bc@JQNq@Bo@KiA?aAAI@]FSHe@Ku@@[E_ABe@WwAJu@@[OyB@[Nq@Fe@?_@Ga@@QCUDM?wB`@oA@IEc@@UHcATS`@[J{@\\y@Vg@DCDc@Rs@vBeCFOb@i@XU`@k@X[FOLMZMf@_@`@Uv@{@NI@Ev@k@Rc@ZYZc@JWn@o@LYLMj@_ATYLE^q@v@_@RQZG`@SBG~A_@n@ZH?JAjA?^C\\Kv@N^IX?TEVDf@Ab@MrAg@\\Ul@GTMd@SfAu@f@i@`A_@XQ^K`@c@PMB?XY"
+      }
+    },
     {
       "id": 19745998203,
       "name": "Evening Walk",
@@ -97,7 +161,7 @@
       "max_speed": 3.033,
       "average_heartrate": null,
       "max_heartrate": null,
-      "kudos_count": 0,
+      "kudos_count": 1,
       "workout_type": null,
       "start_latlng": [
         47.352343,

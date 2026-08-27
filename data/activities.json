@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-26T07:45:28.019Z",
+  "fetched_at": "2026-08-27T18:06:27.725Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -9,33 +9,33 @@
   },
   "lifetime_stats": {
     "recent_run_totals": {
-      "count": 2,
-      "distance": 16899.7,
-      "moving_time": 6532,
-      "elapsed_time": 7684,
-      "elevation_gain": 231.8,
+      "count": 3,
+      "distance": 21514,
+      "moving_time": 8695,
+      "elapsed_time": 9896,
+      "elevation_gain": 298.8,
       "achievement_count": 0
     },
     "ytd_run_totals": {
-      "count": 7,
-      "distance": 44509,
-      "moving_time": 17718,
-      "elapsed_time": 19400,
-      "elevation_gain": 427.20000000000005
+      "count": 8,
+      "distance": 49124,
+      "moving_time": 19881,
+      "elapsed_time": 21612,
+      "elevation_gain": 494.20000000000005
     },
     "all_run_totals": {
-      "count": 234,
-      "distance": 1632899.8999999994,
-      "moving_time": 692936,
-      "elapsed_time": 684239,
-      "elevation_gain": 9964.200000000003
+      "count": 235,
+      "distance": 1637514.1999999995,
+      "moving_time": 695099,
+      "elapsed_time": 686451,
+      "elevation_gain": 10031.200000000003
     }
   },
   "aggregates": {
-    "run_count": 7,
-    "total_distance_km": 44.5,
-    "total_elevation_gain_m": 427,
-    "total_moving_time_s": 17718,
+    "run_count": 8,
+    "total_distance_km": 49.1,
+    "total_elevation_gain_m": 494,
+    "total_moving_time_s": 19881,
     "longest_run_km": 10.3,
     "weekly": [
       {
@@ -61,6 +61,10 @@
       {
         "week": "2026-08-10",
         "distance_km": 6.6
+      },
+      {
+        "week": "2026-08-24",
+        "distance_km": 4.6
       }
     ],
     "monthly": [
@@ -78,13 +82,43 @@
       },
       {
         "month": "2026-08",
-        "distance_km": 16.9,
-        "elevation_gain_m": 232,
-        "avg_pace_min_km": 6.44
+        "distance_km": 21.5,
+        "elevation_gain_m": 299,
+        "avg_pace_min_km": 6.74
       }
     ]
   },
   "activities": [
+    {
+      "id": 19912747014,
+      "name": "Morning Run",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-08-26T15:43:44Z",
+      "start_date_local": "2026-08-26T08:43:44Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 4614.3,
+      "moving_time": 2163,
+      "elapsed_time": 2212,
+      "total_elevation_gain": 67,
+      "average_speed": 2.133,
+      "max_speed": 4.36,
+      "average_heartrate": 154.4,
+      "max_heartrate": 181,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        38.54341,
+        -123.002073
+      ],
+      "end_latlng": [
+        38.53254,
+        -123.003
+      ],
+      "map": {
+        "summary_polyline": "s{fjFvzvmVFDp@VTn@Hd@Xl@HVWt@Kh@If@GhAYXGLJMDi@HWHMBSHQCOBIXi@@OAM@IFKNMt@SXEZJFP`@[LCd@Dt@A`@FDDFTCNN`AHLD`@HTFFb@KBHBBj@Fb@RfANPNBHJJVAFEV?N?VDZXv@PVTFLCBFAP@JI`@FnAENDJLLHv@GL@LDPHHHHTBNGp@Gf@CFDh@?d@Eb@GT@b@ETQPi@fAS\\IZIh@Kd@Y\\AJQXMNOd@GJSHGXOZOFILEP[`@e@Xc@CMBIHQBOLk@l@EJ[XW@GHUHQ\\Of@S@KDIHCYRQJ[?[LMPAj@WLg@LYROHAV]VKj@EDGH?HGLa@PIREPMt@aAd@}@Lc@BCx@Qf@DNA@FP]FGB?CKLKD@`@_@Fe@JOh@mALcAAMBDLGPc@BU`@g@Lg@Di@NWHGNE\\Ap@Yh@]TSPKLYdAo@FCHNT@"
+      }
+    },
     {
       "id": 19758090129,
       "name": "Afternoon Walk",

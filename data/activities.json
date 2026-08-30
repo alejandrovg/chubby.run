@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-29T12:58:20.181Z",
+  "fetched_at": "2026-08-30T12:37:17.523Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -89,6 +89,36 @@
     ]
   },
   "activities": [
+    {
+      "id": 19954757177,
+      "name": "Ride to Bodega Bay",
+      "type": "Ride",
+      "sport_type": "Ride",
+      "start_date": "2026-08-29T17:45:03Z",
+      "start_date_local": "2026-08-29T10:45:03Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 37233.6,
+      "moving_time": 5537,
+      "elapsed_time": 6159,
+      "total_elevation_gain": 296,
+      "average_speed": 6.725,
+      "max_speed": 14.4,
+      "average_heartrate": 152,
+      "max_heartrate": 179,
+      "kudos_count": 3,
+      "workout_type": 10,
+      "start_latlng": [
+        38.504473,
+        -122.989252
+      ],
+      "end_latlng": [
+        38.326326,
+        -123.04095
+      ],
+      "map": {
+        "summary_polyline": "yy~iFjrtmVpBvBbIhK^AfAoATNOf@uA~AkM`GiDvBbAdIDhIWb@O`AICl@PR~VJxBZxApAjCpA~@`Hv@pChAlG`@fAZfAv@lM`UlDbNlEtM`@t@pBtBdEfD`APpDGdLgC|E_DpK_FrAgAb@eA`AcAPy@xBkEHmAj@kAKsFf@eHd@eM^w@b@gJzA}LJ}DZeDIsD\\sDr@iB|BuApC]zA\\lAdA`AvAjHfMjBxExCvCj@~@jArCb@nDdAtCXtCb@x@jB|@rCJ`CtArCH~AvAbBn@dEtCrC|CnAjBd@nA\\`CoB~Js@nBuGjKkA|AkB|A_K~D}I~DiA`C}@xDm@nAyCvCo@nBBdAg@nEu@pB[hB}@nBi@vBJbDbAzBtIjH`Bf@|CJpBjApBrCzF`LbC~DdHdJfFbBtDfHnAxCj@pDrAtk@QtDoBvPClHPrChAbFtA|ClAfBpCdClEdBpD`@`LXxBw@vFsD|LuDnB[pADnAb@fUdNjPlQjBlCfErEl@`AbAdDlCjD`ClJrHxSzIrZbAzFPnFy@|NiB|FoBtJgIhNcE`MwBfDyAnGaDtE_FlNQ`FNvOm@fF?tBRzAx@tBzErFlAtBp@l@xBb@~D]jGzAr@n@jCbFxBvAtI[fC`@vAbBfDlIzB`CrCxAzBJdAa@rHyHlKyH`D}@~@Zv@dAX~@MtFHlFQtAyAzBEn@dAjCn@|C@h@YrABjDRpBh@r@z@B|FgAjE]tDyBdHkGtEiAtK_HfFq@f^sRlH}@\\Sd@aA?wA_AmDCo@XaAd@[v@JxBjBxCd@|RgEp@s@t@{Cp@s@~Eg@rIaFbAA|Cd@~F}ApEo@|GChD_Bl@_Br@sEj@{@~@^~@pAt@XlHb@zMsBbAm@rCqEpA[CZCYPOKUXyB?qAcC{GCg@N_@\\OlIFbA_@x@oAxD{IjDqLxAyBtAaAnDy@jMhAnBG|@]vEiDr@UnDGt@StHyFvBkAhDg@lJKrAUhAsAd@{CRu@b@i@pDkAlJk@jLaIxDoFt@_@dC_@^g@Py@e@eDVy@tDRvEgAz@i@lAsAxE{AjLsGbFmApD_DpEYzD_C|Dq@dGaDbEAvB]p@m@zFcIdH_MdBaCvHiIzEcClCmBd@aAnBoHzFyP~DwGrB{ArIeC|M{J`HgNVaADkCPc@^S`AH|K`HlARr@g@`EuJt@aAf@O^XFl@?bCh@~CDdEt@rAv@NrKcFlCeCtC]rDmCjEuJpB_ElEyD"
+      }
+    },
     {
       "id": 19912747014,
       "name": "Morning Run",

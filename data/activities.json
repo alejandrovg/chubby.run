@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-05T11:08:47.087Z",
+  "fetched_at": "2026-09-06T11:31:39.255Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -9,11 +9,11 @@
   },
   "lifetime_stats": {
     "recent_run_totals": {
-      "count": 3,
-      "distance": 21514,
-      "moving_time": 8695,
-      "elapsed_time": 9896,
-      "elevation_gain": 298.8,
+      "count": 2,
+      "distance": 11189.1,
+      "moving_time": 4631,
+      "elapsed_time": 4713,
+      "elevation_gain": 113,
       "achievement_count": 0
     },
     "ytd_run_totals": {

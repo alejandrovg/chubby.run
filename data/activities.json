@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-12T11:29:18.478Z",
+  "fetched_at": "2026-09-13T12:33:55.285Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -9,11 +9,11 @@
   },
   "lifetime_stats": {
     "recent_run_totals": {
-      "count": 2,
-      "distance": 11189.1,
-      "moving_time": 4631,
-      "elapsed_time": 4713,
-      "elevation_gain": 113,
+      "count": 1,
+      "distance": 4614.3,
+      "moving_time": 2163,
+      "elapsed_time": 2212,
+      "elevation_gain": 67,
       "achievement_count": 0
     },
     "ytd_run_totals": {
@@ -89,6 +89,36 @@
     ]
   },
   "activities": [
+    {
+      "id": 20148860442,
+      "name": "Lunch Ride",
+      "type": "Ride",
+      "sport_type": "Ride",
+      "start_date": "2026-09-12T18:11:05Z",
+      "start_date_local": "2026-09-12T11:11:05Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 32788.4,
+      "moving_time": 5192,
+      "elapsed_time": 5373,
+      "total_elevation_gain": 406,
+      "average_speed": 6.315,
+      "max_speed": 15.46,
+      "average_heartrate": 154.8,
+      "max_heartrate": 189,
+      "kudos_count": 4,
+      "workout_type": null,
+      "start_latlng": [
+        47.579547,
+        -122.151133
+      ],
+      "end_latlng": [
+        47.58058,
+        -122.151246
+      ],
+      "map": {
+        "summary_polyline": "exkaHdeqhVw@dKeAfp@[zb@j@zB}@fHApHYnBGfHJpE^lBHlBKbEb@nFn@fAKPkAuA}@e@W\\GlD]`AEv@bBh]CpJnCvCvA~CZjA?lDsCbW`@zEOhCi@h@uBGW[UoELATxD~H|e@b@bEVjJOxF]vD`El@x@O~@y@lAoDjAaAzIMtGu@l@LlBfB`HjNvFbHjBVdFjHd@DbAiA|AJZn@RfBr@dAd@g@ZsCp@]j@Tl@rB?|Ex@hAd@Kx@sAv@aG`AY`CfBjCe@fAhAXvA\\^V@l@}@d@MpAv@`Do@^fAXdDv@x@nBw@pAgCf@a@`CUpAP|@fBrBGb@`ETl@p@`@r@Yn@iF^[xAf@\\m@FoAb@q@j@Jd@hAd@TZOf@_BnB[zAEp@Vd@~E\\j@d@a@f@qDbA_AlBrAbDw@jAu@`Mn@rCcB|AYdFL^lAgAdKTvAZN^SdE{IfAmAdBPnR@~IgA`BZjGrCbG|EhBrFv@pAdCvCpDlCzMbT|CpGfA~J|CzEl@rBv@b@dD_@z@Ll@f@`AlBEbBiAvBqAxEcGpHiI`QYrA]zEqBlEi@dFk@|A_JdHsCOs@RaC~BcB`D{AN_Ec@wAu@mE{DmCgGcI}HuB{C{@yCi@i@aEkAcKeA{@[cMiMaI]wNiCy@e@_AuCu@i@mG^qFa@cA_@}@_AIgFiAkG{@wBgBgBaGsBeAt@iAfDuBt@_DAgD|EwAdAqLr@uCBiDbAcCGeDnDuDQaEu@i@TmBdCkFv@eAd@y@jBSjIWxAg@d@eD|@cAbA]jG_CbGq@nIsMdS_ClFSnAUfEaHbJgElCiG~KuA`B_GD_K`B_KwBcEwAoNCaF[qD{@kB{@yF{DsHuFe@eBBqEV}@dBq@t@w@zLyPl@mBFcDXiB]wA?yNyB_GeC_F_@qBH{@vUSPo\\vNC~@UtA{AlKo[JsBcAkIEcCv@aDdAiAbOeGrA}A|AmEvBgJEcAVoCBmEI_@q@K`@FN\\a@jJH`@fCTrBYPmMpAmKnA}DI{@W]{AFe@WaAN]QZuDJ_He@wKwIci@WaEEpDJbAZ^jBCn@g@N_CUcHbCwQZiHIy@oA}Cc@KgCiCGuKeBi\\l@sDAcCfCvA`@HHO@Wg@u@k@iFHmGc@iDQaHJeEXoB?iGx@sIm@oCJ_R`@_]jBg`A`@yFH?"
+      }
+    },
     {
       "id": 19954757177,
       "name": "Ride to Bodega Bay",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-02T16:50:39.749Z",
+  "fetched_at": "2026-11-03T14:51:48.592Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -9,33 +9,33 @@
   },
   "lifetime_stats": {
     "recent_run_totals": {
-      "count": 0,
-      "distance": 0,
-      "moving_time": 0,
-      "elapsed_time": 0,
+      "count": 1,
+      "distance": 3833.7,
+      "moving_time": 2024,
+      "elapsed_time": 2024,
       "elevation_gain": 0,
       "achievement_count": 0
     },
     "ytd_run_totals": {
-      "count": 8,
-      "distance": 49124,
-      "moving_time": 19881,
-      "elapsed_time": 21612,
+      "count": 9,
+      "distance": 52957,
+      "moving_time": 21905,
+      "elapsed_time": 23636,
       "elevation_gain": 494.20000000000005
     },
     "all_run_totals": {
-      "count": 235,
-      "distance": 1637514.1999999995,
-      "moving_time": 695099,
-      "elapsed_time": 686451,
+      "count": 236,
+      "distance": 1641347.8999999994,
+      "moving_time": 697123,
+      "elapsed_time": 688475,
       "elevation_gain": 10031.200000000003
     }
   },
   "aggregates": {
-    "run_count": 8,
-    "total_distance_km": 49.1,
+    "run_count": 9,
+    "total_distance_km": 53,
     "total_elevation_gain_m": 494,
-    "total_moving_time_s": 19881,
+    "total_moving_time_s": 21905,
     "longest_run_km": 10.3,
     "weekly": [
       {
@@ -65,6 +65,10 @@
       {
         "week": "2026-08-24",
         "distance_km": 4.6
+      },
+      {
+        "week": "2026-11-02",
+        "distance_km": 3.8
       }
     ],
     "monthly": [
@@ -85,10 +89,38 @@
         "distance_km": 21.5,
         "elevation_gain_m": 299,
         "avg_pace_min_km": 6.74
+      },
+      {
+        "month": "2026-11",
+        "distance_km": 3.8,
+        "elevation_gain_m": 0,
+        "avg_pace_min_km": 8.8
       }
     ]
   },
   "activities": [
+    {
+      "id": 20836086701,
+      "name": "Afternoon Run",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-11-02T23:11:16Z",
+      "start_date_local": "2026-11-02T15:11:16Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 3833.7,
+      "moving_time": 2024,
+      "elapsed_time": 2024,
+      "total_elevation_gain": 0,
+      "average_speed": 1.894,
+      "max_speed": 3,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [],
+      "end_latlng": [],
+      "map": null
+    },
     {
       "id": 20148860442,
       "name": "Lunch Ride",

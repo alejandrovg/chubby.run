@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T15:08:38.159Z",
+  "fetched_at": "2026-11-05T15:11:40.079Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -99,6 +99,28 @@
     ]
   },
   "activities": [
+    {
+      "id": 20864057755,
+      "name": "Afternoon Workout",
+      "type": "Workout",
+      "sport_type": "Workout",
+      "start_date": "2026-11-05T00:18:24Z",
+      "start_date_local": "2026-11-04T16:18:24Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 0,
+      "moving_time": 1504,
+      "elapsed_time": 1504,
+      "total_elevation_gain": 0,
+      "average_speed": 0,
+      "max_speed": 0,
+      "average_heartrate": null,
+      "max_heartrate": null,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [],
+      "end_latlng": [],
+      "map": null
+    },
     {
       "id": 20836086701,
       "name": "Afternoon Run",

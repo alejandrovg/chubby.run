@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T14:05:27.344Z",
+  "fetched_at": "2026-11-09T17:11:21.576Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -9,33 +9,33 @@
   },
   "lifetime_stats": {
     "recent_run_totals": {
-      "count": 1,
-      "distance": 3833.7,
-      "moving_time": 2024,
-      "elapsed_time": 2024,
+      "count": 3,
+      "distance": 9744.3,
+      "moving_time": 4346,
+      "elapsed_time": 4447,
       "elevation_gain": 0,
       "achievement_count": 0
     },
     "ytd_run_totals": {
-      "count": 9,
-      "distance": 52957,
-      "moving_time": 21905,
-      "elapsed_time": 23636,
+      "count": 11,
+      "distance": 58868,
+      "moving_time": 24227,
+      "elapsed_time": 26059,
       "elevation_gain": 494.20000000000005
     },
     "all_run_totals": {
-      "count": 236,
-      "distance": 1641347.8999999994,
-      "moving_time": 697123,
-      "elapsed_time": 688475,
+      "count": 238,
+      "distance": 1647258.4999999998,
+      "moving_time": 699445,
+      "elapsed_time": 690898,
       "elevation_gain": 10031.200000000003
     }
   },
   "aggregates": {
-    "run_count": 9,
-    "total_distance_km": 53,
+    "run_count": 11,
+    "total_distance_km": 58.9,
     "total_elevation_gain_m": 494,
-    "total_moving_time_s": 21905,
+    "total_moving_time_s": 24227,
     "longest_run_km": 10.3,
     "weekly": [
       {
@@ -68,7 +68,7 @@
       },
       {
         "week": "2026-11-02",
-        "distance_km": 3.8
+        "distance_km": 9.7
       }
     ],
     "monthly": [
@@ -92,13 +92,57 @@
       },
       {
         "month": "2026-11",
-        "distance_km": 3.8,
+        "distance_km": 9.7,
         "elevation_gain_m": 0,
-        "avg_pace_min_km": 8.8
+        "avg_pace_min_km": 7.43
       }
     ]
   },
   "activities": [
+    {
+      "id": 20914182627,
+      "name": "The actual run",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-11-08T21:17:50Z",
+      "start_date_local": "2026-11-08T13:17:50Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 3512.3,
+      "moving_time": 1420,
+      "elapsed_time": 1420,
+      "total_elevation_gain": 0,
+      "average_speed": 2.473,
+      "max_speed": 3.68,
+      "average_heartrate": 179.8,
+      "max_heartrate": 188,
+      "kudos_count": 1,
+      "workout_type": 0,
+      "start_latlng": [],
+      "end_latlng": [],
+      "map": null
+    },
+    {
+      "id": 20914182762,
+      "name": "The actual run part 1",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-11-08T20:53:42Z",
+      "start_date_local": "2026-11-08T12:53:42Z",
+      "timezone": "(GMT-08:00) America/Los_Angeles",
+      "distance": 2398.3,
+      "moving_time": 902,
+      "elapsed_time": 1003,
+      "total_elevation_gain": 0,
+      "average_speed": 2.659,
+      "max_speed": 3.76,
+      "average_heartrate": 166,
+      "max_heartrate": 184,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [],
+      "end_latlng": [],
+      "map": null
+    },
     {
       "id": 20864057755,
       "name": "Afternoon Workout",

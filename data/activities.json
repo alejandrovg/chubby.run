@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-12T15:46:43.195Z",
+  "fetched_at": "2026-11-13T15:07:23.722Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -9,33 +9,33 @@
   },
   "lifetime_stats": {
     "recent_run_totals": {
-      "count": 3,
-      "distance": 9744.3,
-      "moving_time": 4346,
-      "elapsed_time": 4447,
+      "count": 4,
+      "distance": 14772.3,
+      "moving_time": 6080,
+      "elapsed_time": 6181,
       "elevation_gain": 0,
       "achievement_count": 0
     },
     "ytd_run_totals": {
-      "count": 11,
-      "distance": 58868,
-      "moving_time": 24227,
-      "elapsed_time": 26059,
+      "count": 12,
+      "distance": 63896,
+      "moving_time": 25961,
+      "elapsed_time": 27793,
       "elevation_gain": 494.20000000000005
     },
     "all_run_totals": {
-      "count": 238,
-      "distance": 1647258.4999999998,
-      "moving_time": 699445,
-      "elapsed_time": 690898,
+      "count": 239,
+      "distance": 1652286.4999999998,
+      "moving_time": 701179,
+      "elapsed_time": 692632,
       "elevation_gain": 10031.200000000003
     }
   },
   "aggregates": {
-    "run_count": 11,
-    "total_distance_km": 58.9,
+    "run_count": 12,
+    "total_distance_km": 63.9,
     "total_elevation_gain_m": 494,
-    "total_moving_time_s": 24227,
+    "total_moving_time_s": 25961,
     "longest_run_km": 10.3,
     "weekly": [
       {
@@ -69,6 +69,10 @@
       {
         "week": "2026-11-02",
         "distance_km": 9.7
+      },
+      {
+        "week": "2026-11-09",
+        "distance_km": 5
       }
     ],
     "monthly": [
@@ -92,13 +96,35 @@
       },
       {
         "month": "2026-11",
-        "distance_km": 9.7,
+        "distance_km": 14.8,
         "elevation_gain_m": 0,
-        "avg_pace_min_km": 7.43
+        "avg_pace_min_km": 6.86
       }
     ]
   },
   "activities": [
+    {
+      "id": 20966739351,
+      "name": "Hamster wheel push",
+      "type": "Run",
+      "sport_type": "Run",
+      "start_date": "2026-11-13T00:22:07Z",
+      "start_date_local": "2026-11-12T18:22:07Z",
+      "timezone": "(GMT-06:00) America/Bahia_Banderas",
+      "distance": 5028,
+      "moving_time": 1734,
+      "elapsed_time": 1734,
+      "total_elevation_gain": 0,
+      "average_speed": 2.9,
+      "max_speed": 3.6,
+      "average_heartrate": 157.9,
+      "max_heartrate": 182,
+      "kudos_count": 1,
+      "workout_type": 0,
+      "start_latlng": [],
+      "end_latlng": [],
+      "map": null
+    },
     {
       "id": 20914182627,
       "name": "The actual run",

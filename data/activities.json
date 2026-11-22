@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T15:06:45.954Z",
+  "fetched_at": "2026-11-22T15:03:45.138Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -103,6 +103,36 @@
     ]
   },
   "activities": [
+    {
+      "id": 21077175037,
+      "name": "Fart walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-11-21T23:46:55Z",
+      "start_date_local": "2026-11-21T20:46:55Z",
+      "timezone": "(GMT-04:00) America/Santiago",
+      "distance": 1076.1,
+      "moving_time": 780,
+      "elapsed_time": 811,
+      "total_elevation_gain": 1,
+      "average_speed": 1.38,
+      "max_speed": 5.723,
+      "average_heartrate": 106.4,
+      "max_heartrate": 124,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [
+        -20.240856,
+        -70.144677
+      ],
+      "end_latlng": [
+        -20.247158,
+        -70.138882
+      ],
+      "map": {
+        "summary_polyline": "vkpzBx~bkLf@s@f@UHOBU\\Y\\]x@oAh@k@V_@ZYz@_@pAoAFKlA{@h@g@vAaAXO"
+      }
+    },
     {
       "id": 20966739351,
       "name": "Hamster wheel push",

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-22T15:03:45.138Z",
+  "fetched_at": "2026-11-23T18:59:43.064Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -103,6 +103,36 @@
     ]
   },
   "activities": [
+    {
+      "id": 21096831856,
+      "name": "1% of TSP ATA route. Hike/Jog with Davide",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-11-23T15:04:59Z",
+      "start_date_local": "2026-11-23T12:04:59Z",
+      "timezone": "(GMT-04:00) America/Santiago",
+      "distance": 6941.3,
+      "moving_time": 4483,
+      "elapsed_time": 6577,
+      "total_elevation_gain": 258,
+      "average_speed": 1.548,
+      "max_speed": 4.667,
+      "average_heartrate": 137.6,
+      "max_heartrate": 181,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        -20.357999,
+        -69.018567
+      ],
+      "end_latlng": [
+        -20.33038,
+        -68.961086
+      ],
+      "map": {
+        "summary_polyline": "l~f{BjyfdLMOw@aBYyAQk@Oq@Ii@I[M}@YoAWeAO]Mg@GKc@oB[eFUmBi@{CkAqEeAgF_@uBY}@eAaCmBiFeBkGcB_FWy@q@kCIe@]}Cc@_C[kAO_@?E_AaBcC_Fc@iAUsBAU@QE@?gACcAQoCAgDImAKk@IQKKqB}CcAmAgAaAOSw@m@]]g@q@Yk@W}@W{A[aASw@[{AY_Au@cBYgAm@wCSm@Yo@aAsC@IQ]i@uAIKcA}Cc@aB]kBKa@B@YiAKQ?GDNO}@g@qAw@qAw@gBgAwAMUq@gC}@oCS{@K}@KiCO_C?_@ABKo@OyBGc@Mg@c@w@w@y@o@o@CBc@i@eBgBg@a@UWcD{Cm@q@iCqB_BwA_BiAOUUKqAgAmA{AB?e@g@eByBYc@k@q@_CiDwAeBiAiBQa@EK@AgBiDgBwE]w@m@}AGWGIs@yAsA}CcCmF"
+      }
+    },
     {
       "id": 21077175037,
       "name": "Fart walk",

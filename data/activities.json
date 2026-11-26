@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-25T17:49:05.968Z",
+  "fetched_at": "2026-11-26T17:32:58.541Z",
   "training_window_start": "2026-01-01T00:00:00Z",
   "goal_race_date": "2027-04-25",
   "athlete": {
@@ -103,6 +103,66 @@
     ]
   },
   "activities": [
+    {
+      "id": 21130020283,
+      "name": "Support walk @ TSP ATA",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-11-26T07:47:05Z",
+      "start_date_local": "2026-11-26T04:47:05Z",
+      "timezone": "(GMT-04:00) America/Santiago",
+      "distance": 12970.8,
+      "moving_time": 9853,
+      "elapsed_time": 12618,
+      "total_elevation_gain": 87,
+      "average_speed": 1.316,
+      "max_speed": 3.643,
+      "average_heartrate": 104.4,
+      "max_heartrate": 134,
+      "kudos_count": 1,
+      "workout_type": null,
+      "start_latlng": [
+        -21.521347,
+        -68.369708
+      ],
+      "end_latlng": [
+        -21.607194,
+        -68.313243
+      ],
+      "map": {
+        "summary_polyline": "`njbCnhh`LBG~@w@f@k@\\WVg@f@i@z@kB\\m@fAoANe@d@i@j@cAJIN]b@k@P_@tA{BjBkBZi@`@_Ap@uBBC?@Vm@tA_C^g@N_@LSd@oADSP]dBwCd@iAXaA^cAP_A\\oAfAoCl@mBXo@NUXy@`@}@r@mBr@cC@Yj@wARo@FC@KXaA|AwELYJ]j@iAf@mAZm@z@eCl@qCf@{ELw@Hw@PaAnDgNLg@B]FC?@GIEU]uDNeAfAuA^[z@kAb@iAH]Ri@F]hAiD^i@Tk@ZgAf@sAJO\\}@t@}ApAgB~DsGNO^m@j@s@b@o@ZWbEqFx@}@?Bp@_AzAgBrBiCXg@p@mB~DsEbBuBf@i@hEgFG@d@c@n@u@dC}Cf@w@vAcBdAcBXm@\\c@\\m@TWfAiBrCiFLYNSr@iATc@N_@tBiDTg@fD_GhAuB`EiHr@aAD?p@w@~@w@dAi@x@Sr@Yl@S\\MFAp@WtB[lAKxIy@hAGjAQTGtFcAbAMl@OnAO~@S`Em@XGv@Kn@Ol@EnBc@r@KZAzDq@hEm@BBZMdAOVGv@IRGfAOx@OfAMn@O|B]bB[bC]lEu@`Eg@RAhEc@nDSzHm@|Ge@lAErJo@zEShQgAn@C|AQr@ChDYb@IjBMD??BDGVARDn@MfBMh@AxA@zAL`PnC?Qj@ZZHhANXHhFz@ZJb@BtDp@F?l@HdB\\pCb@r@PjC`@vAXjBXhEx@~Bn@r@L`@NrCt@pBp@DDZBv@Rl@XL@n@PrAd@h@J~Bt@p@NzAP`AFv@?l@CrAKdAOr@QnBy@dBiAjAkAdBsB"
+      }
+    },
+    {
+      "id": 21122585310,
+      "name": "Afternoon Walk",
+      "type": "Walk",
+      "sport_type": "Walk",
+      "start_date": "2026-11-25T17:40:25Z",
+      "start_date_local": "2026-11-25T14:40:25Z",
+      "timezone": "(GMT-04:00) America/Santiago",
+      "distance": 1621.9,
+      "moving_time": 1327,
+      "elapsed_time": 1372,
+      "total_elevation_gain": 38,
+      "average_speed": 1.222,
+      "max_speed": 2.683,
+      "average_heartrate": 110.4,
+      "max_heartrate": 139,
+      "kudos_count": 2,
+      "workout_type": null,
+      "start_latlng": [
+        -21.400604,
+        -68.315131
+      ],
+      "end_latlng": [
+        -21.400608,
+        -68.315495
+      ],
+      "map": {
+        "summary_polyline": "btraCzh}_LE_@Zl@ABAAIYEAXbBADDLEC?E@H@?@R`@tBNl@Fr@Nf@L`AVdA@XAPFRDf@r@pDFJNj@@JI?CD^rBc@}ACUBKFDHLNn@ZhBLd@J~@Ph@?NLj@HFCf@MeAIYQ{AQw@GIMo@Ec@Ke@AYWcAGq@"
+      }
+    },
     {
       "id": 21096831856,
       "name": "1% of TSP ATA route. Hike/Jog with Davide",
